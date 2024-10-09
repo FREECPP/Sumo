@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-18 19:42:30 by Eclipse SUMO netconvert Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertUrbanDe.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertPedestrians.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertBicycle.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-1600991190" name="Hochschule" lane="-228086399#1_0" startPos="14.80" endPos="29.80" friendlyPos="true" lines="5 41 47 40 15">
+        <access lane="-63590375#1_0" pos="0.00" length="43.94" friendlyPos="1"/>
+        <access lane="23895015#0_0" pos="26.00" length="41.44" friendlyPos="1"/>
+        <access lane="63590375#1_0" pos="2.70" length="44.82" friendlyPos="1"/>
+        <access lane="984033404#2_0" pos="22.29" length="12.17" friendlyPos="1"/>
+        <access lane="984033414#0_0" pos="48.32" length="16.77" friendlyPos="1"/>
+    </busStop>
+    <busStop id="10086938348" name="Hochschule" lane="228086399#0_0" startPos="52.65" endPos="67.65" friendlyPos="true" lines="5 40 15 41 47">
+        <access lane="-23895015#0_0" pos="0.00" length="31.81" friendlyPos="1"/>
+        <access lane="23895015#0_0" pos="26.00" length="27.71" friendlyPos="1"/>
+        <access lane="984033404#1_0" pos="107.97" length="37.94" friendlyPos="1"/>
+        <access lane="984033404#2_0" pos="12.16" length="11.46" friendlyPos="1"/>
+        <access lane="984033414#0_0" pos="58.45" length="17.33" friendlyPos="1"/>
+    </busStop>
+</additional>

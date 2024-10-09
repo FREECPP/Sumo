@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-18 19:42:31 by Eclipse SUMO sumo Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-09-18-19-42-22/osm.net.xml.gz"/>
+        <route-files value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-09-18-19-42-22/trips.trips.xml"/>
+        <additional-files value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-09-18-19-42-22/osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-09-18-19-42-22/vehroutes.xml"/>
+        <stop-output value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-09-18-19-42-22/stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-09-18-19-42-22/trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0_bus_5:0" type="pt_bus" depart="15.00" departLane="0" arrival="182.00">
+        <route edges="-159171321 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <stop busStop="-1600991190" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="1_bus_41:0" type="pt_bus" depart="52.00" departLane="0" arrival="185.00">
+        <route edges="-159171321 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <stop busStop="-1600991190" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="2_bus_47:0" type="pt_bus" depart="57.00" departLane="0" arrival="259.00">
+        <route edges="-159171321 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <stop busStop="-1600991190" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="3_bus_40:0" type="pt_bus" depart="133.00" departLane="0" arrival="262.00">
+        <route edges="-159171321 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <stop busStop="-1600991190" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="4_bus_5:1" type="pt_bus" depart="165.00" departLane="2" arrival="336.00">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 159171321"/>
+        <stop busStop="10086938348" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="5_bus_40:1" type="pt_bus" depart="253.00" departLane="2" arrival="395.00">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 159171321"/>
+        <stop busStop="10086938348" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="6_bus_15:0" type="pt_bus" depart="383.00" departLane="1" arrival="489.00">
+        <route edges="-23090819 -984033386#2 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <stop busStop="-1600991190" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="7_bus_15:1" type="pt_bus" depart="406.00" departLane="2" arrival="581.00">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 984033386#2 23090819"/>
+        <stop busStop="10086938348" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="8_bus_41:1" type="pt_bus" depart="467.00" departLane="2" arrival="586.00">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 159171321"/>
+        <stop busStop="10086938348" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="9_bus_47:1" type="pt_bus" depart="535.00" departLane="2" arrival="627.00">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 159171321"/>
+        <stop busStop="10086938348" duration="30.00"/>
+    </vehicle>
+
+</routes>

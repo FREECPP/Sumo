@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-08 17:29:56 by Eclipse SUMO netconvert Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertUrbanDe.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertPedestrians.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertBicycle.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-15624443" name="Ostbahnhof" lane="-196656222#0_0" startPos="62.48" endPos="77.48" friendlyPos="true" lines="672 673 X69 671 X74 X71 X78 NHX">
+        <access lane="-150041645#0_0" pos="53.87" length="16.80" friendlyPos="1"/>
+        <access lane="-150041699#1_0" pos="102.59" length="15.34" friendlyPos="1"/>
+        <access lane="150041699#1_0" pos="1.76" length="12.34" friendlyPos="1"/>
+        <access lane="196656222#0_0" pos="1.59" length="11.85" friendlyPos="1"/>
+        <access lane="255797398_0" pos="0.00" length="7.70" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2385375149" name="Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd)" lane="-51873805_1" startPos="35.75" endPos="50.75" friendlyPos="true" lines="F">
+        <access lane="-4195580#2_0" pos="4.04" length="74.86" friendlyPos="1"/>
+        <access lane="-640167405_0" pos="29.14" length="86.90" friendlyPos="1"/>
+        <access lane="-715835444#1_0" pos="38.03" length="85.24" friendlyPos="1"/>
+        <access lane="185104104_0" pos="0.00" length="8.22" friendlyPos="1"/>
+        <access lane="55556572_0" pos="52.85" length="8.11" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-243169788" name="Jugendstilbad" lane="-214846345#2_0" startPos="51.20" endPos="66.20" friendlyPos="true" lines="672 673 X69 671 MO1 X74 RH X71 GB X78 NHX">
+        <access lane="116556689#2_0" pos="0.20" length="9.31" friendlyPos="1"/>
+        <access lane="116556689#3_0" pos="0.20" length="8.29" friendlyPos="1"/>
+        <access lane="116556689#4_0" pos="0.00" length="7.75" friendlyPos="1"/>
+        <access lane="255797400_0" pos="0.18" length="7.00" friendlyPos="1"/>
+        <access lane="458284295_0" pos="0.17" length="6.65" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-25599407" name="Elisabethenstift/Woog" lane="-56163443#3_0" startPos="145.61" endPos="160.61" friendlyPos="true" lines="672 673 671 MO1 RH GB X78 NHX">
+        <access lane="-150041716#1_0" pos="32.80" length="8.98" friendlyPos="1"/>
+        <access lane="150041716#1_0" pos="4.38" length="11.98" friendlyPos="1"/>
+        <access lane="255797401#0_0" pos="0.00" length="9.78" friendlyPos="1"/>
+        <access lane="459339932#0_0" pos="0.20" length="13.33" friendlyPos="1"/>
+        <access lane="459339932#1_0" pos="0.00" length="12.74" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1629692474" name="Kongresszentrum darmstadtium" lane="60873272_0" startPos="0.00" endPos="25.00" friendlyPos="true">
+        <access lane="-150032873_0" pos="0.00" length="37.86" friendlyPos="1"/>
+        <access lane="-984768175_0" pos="9.45" length="19.90" friendlyPos="1"/>
+        <access lane="150032812#0_0" pos="0.91" length="33.56" friendlyPos="1"/>
+        <access lane="26937083#1_0" pos="63.35" length="21.01" friendlyPos="1"/>
+        <access lane="984768175_0" pos="0.00" length="20.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2385375149" name="Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd)" lane="51873805_1" startPos="0.00" endPos="15.00" friendlyPos="true" lines="F FM">
+        <access lane="-4195580#2_0" pos="4.04" length="74.86" friendlyPos="1"/>
+        <access lane="-640167405_0" pos="29.14" length="86.90" friendlyPos="1"/>
+        <access lane="-715835444#1_0" pos="38.03" length="85.24" friendlyPos="1"/>
+        <access lane="185104104_0" pos="0.00" length="8.22" friendlyPos="1"/>
+        <access lane="55556572_0" pos="52.85" length="8.11" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3819369720" name="Jugendstilbad" lane="214846345#2_0" startPos="10.82" endPos="25.82" friendlyPos="true">
+        <access lane="-715913363#2_0" pos="9.55" length="11.10" friendlyPos="1"/>
+        <access lane="1244524930_0" pos="21.32" length="28.27" friendlyPos="1"/>
+        <access lane="255729754#0_0" pos="18.73" length="27.81" friendlyPos="1"/>
+        <access lane="255797400_0" pos="0.18" length="27.87" friendlyPos="1"/>
+        <access lane="458284295_0" pos="0.17" length="29.47" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3819642157" name="Holzstraße" lane="378543233#0_0" startPos="0.00" endPos="11.92" friendlyPos="true">
+        <access lane="378543235#0_0" pos="4.39" length="8.90" friendlyPos="1"/>
+        <access lane="378543235#1_0" pos="0.00" length="5.26" friendlyPos="1"/>
+        <access lane="378543238_0" pos="1.15" length="12.79" friendlyPos="1"/>
+        <access lane="439271815#0_0" pos="0.00" length="12.62" friendlyPos="1"/>
+        <access lane="847071794_0" pos="0.00" length="9.76" friendlyPos="1"/>
+    </busStop>
+    <busStop id="448433719" name="Ostbahnhof" lane="359458217#2_0" startPos="0.00" endPos="9.34" friendlyPos="true" lines="672 673 671 X69 X78 NHX X71 X74"/>
+    <busStop id="448433765" name="Jugendstilbad" lane="214846345#2_0" startPos="30.29" endPos="45.29" friendlyPos="true" lines="RH GB MO1 672 671 X69 673 X78 NHX X71 X74">
+        <access lane="-715913363#2_0" pos="0.00" length="17.56" friendlyPos="1"/>
+        <access lane="1244524930_0" pos="40.79" length="28.87" friendlyPos="1"/>
+        <access lane="255729754#0_0" pos="38.17" length="26.07" friendlyPos="1"/>
+        <access lane="255729754#1_0" pos="0.00" length="33.38" friendlyPos="1"/>
+        <access lane="749484712#1_0" pos="0.00" length="32.21" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4734204898" name="Kongresszentrum darmstadtium" lane="44973978_1" startPos="26.56" endPos="41.56" friendlyPos="true">
+        <access lane="-150032873_0" pos="8.40" length="29.45" friendlyPos="1"/>
+        <access lane="-984768175_0" pos="9.45" length="20.90" friendlyPos="1"/>
+        <access lane="1125742272_0" pos="52.28" length="32.45" friendlyPos="1"/>
+        <access lane="26937083#1_0" pos="62.21" length="18.27" friendlyPos="1"/>
+        <access lane="984768175_0" pos="0.00" length="18.82" friendlyPos="1"/>
+    </busStop>
+    <busStop id="763225186" name="Schloss" lane="1265069359_0" startPos="0.00" endPos="15.00" friendlyPos="true" lines="672 673 F X69 671 MO1 K H L X74 RH X71 GB X78 FM 678 NHX">
+        <access lane="-257510647#0_0" pos="14.86" length="12.79" friendlyPos="1"/>
+        <access lane="-559675981_0" pos="0.00" length="22.01" friendlyPos="1"/>
+        <access lane="256102744_0" pos="47.58" length="20.33" friendlyPos="1"/>
+        <access lane="257510648_0" pos="0.28" length="15.79" friendlyPos="1"/>
+        <access lane="26937083#0_0" pos="0.00" length="19.82" friendlyPos="1"/>
+    </busStop>
+    <busStop id="818872832" name="Elisabethenstift/Woog" lane="150041594#0_1" startPos="26.96" endPos="41.96" friendlyPos="true" lines="RH GB MO1 672 673 671 X78 NHX"/>
+</additional>

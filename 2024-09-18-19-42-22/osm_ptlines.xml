@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-18 19:42:30 by Eclipse SUMO netconvert Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertUrbanDe.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertPedestrians.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertBicycle.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="15392717" name="Bus 5: Dörrmorsbach =&gt; Gailbach =&gt; Hbf/ROB" line="5" type="bus" vClass="bus" completeness="0.02" missingBefore="34" missingAfter="13">
+        <route edges="-159171321 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <busStop id="-1600991190" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="15430481" name="Bus 41: Hösbach-Bahnhof =&gt; Bessenbach =&gt; Aschaffenburg" line="41" type="bus" vClass="bus" completeness="0.02" missingBefore="48" missingAfter="13">
+        <route edges="-159171321 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <busStop id="-1600991190" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="15432191" name="Bus 47: Rothenbuch =&gt; Weibersbrunn =&gt; Hösbach Bahnhof =&gt; Bessenbach =&gt; Aschaffenburg" line="47" type="bus" vClass="bus" completeness="0.01" missingBefore="88" missingAfter="13">
+        <route edges="-159171321 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <busStop id="-1600991190" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="15532423" name="Bus 40: Dammbach =&gt; Mespelbrunn =&gt; Haibach =&gt; Aschaffenburg" line="40" type="bus" vClass="bus" completeness="0.01" missingBefore="68" missingAfter="13">
+        <route edges="-159171321 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <busStop id="-1600991190" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="2508134" name="Bus 5: Hbf/ROB =&gt; Gailbach =&gt; Dörrmorsbach" line="5" type="bus" vClass="bus" completeness="0.02" missingBefore="9" missingAfter="34">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 159171321"/>
+        <busStop id="10086938348" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="2517548" name="Bus 40: Aschaffenburg =&gt; Haibach =&gt; Mespelbrunn =&gt; Dammbach" line="40" type="bus" vClass="bus" completeness="0.01" missingBefore="9" missingAfter="70">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 159171321"/>
+        <busStop id="10086938348" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="4456019" name="Bus 15: Schweinheim, Steubenstraße =&gt; Hbf/ROB" line="15" type="bus" vClass="bus" completeness="0.03" missingBefore="16" missingAfter="13">
+        <route edges="-23090819 -984033386#2 -313957536#0 -159171330 -228086399#1 -471111391 -159171348 -159171324#0"/>
+        <busStop id="-1600991190" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="68610" name="Bus 15: Hbf/ROB =&gt; Schweinheim, Steubenstraße" line="15" type="bus" vClass="bus" completeness="0.04" missingBefore="9" missingAfter="12">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 984033386#2 23090819"/>
+        <busStop id="10086938348" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="68613" name="Bus 41: Aschaffenburg =&gt; Bessenbach =&gt; Hösbach-Bahnhof" line="41" type="bus" vClass="bus" completeness="0.02" missingBefore="9" missingAfter="50">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 159171321"/>
+        <busStop id="10086938348" name="Hochschule"/>
+    </ptLine>
+    <ptLine id="69064" name="Bus 47: Aschaffenburg =&gt; Bessenbach =&gt; Hösbach Bahnhof =&gt; Rothenbuch" line="47" type="bus" vClass="bus" completeness="0.01" missingBefore="9" missingAfter="76">
+        <route edges="159171324#0 159171348 103088982#0 228086399#0 159171330 313957536#0 159171321"/>
+        <busStop id="10086938348" name="Hochschule"/>
+    </ptLine>
+</ptLines>

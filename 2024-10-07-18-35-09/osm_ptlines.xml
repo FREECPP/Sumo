@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-07 18:35:13 by Eclipse SUMO netconvert Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertUrbanDe.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertPedestrians.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertBicycle.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="11125362" name="Bus RH: Ueberau =&gt; Darmstadt Hbf" line="RH" type="bus" vClass="bus" completeness="0.07" missingBefore="35" missingAfter="6">
+        <route edges="-1207893063 -1207893064 -150041557#1 -150041557#0 -1207884628#1 -1207893409#1 -1207893409#0 43206315 53207959#0 53207959#1 53207959#3 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="4724358640" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="11125363" name="Bus GB: Groß-Bieberau =&gt; Darmstadt Hbf" line="GB" type="bus" vClass="bus" completeness="0.08" missingBefore="27" missingAfter="7">
+        <route edges="-1207893063 -1207893064 -150041557#1 -150041557#0 -1207884628#1 -1207893409#1 -1207893409#0 43206315 53207959#0 53207959#1 53207959#3 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="4724358640" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="11133798" name="Bus MO1: Rohrbach =&gt; Darmstadt Hbf" line="MO1" type="bus" vClass="bus" completeness="0.07" missingBefore="31" missingAfter="6">
+        <route edges="-1207893063 -1207893064 -150041557#1 -150041557#0 -1207884628#1 -1207893409#1 -1207893409#0 43206315 53207959#0 53207959#1 53207959#3 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="4724358640" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="11619449" name="Bus 672: Dieburg =&gt; Darmstadt (Schülerfahrt nachmittags)" line="672" type="bus" vClass="bus" completeness="0.07" missingBefore="34" missingAfter="6">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="11619450" name="Bus 672: Dieburg =&gt; Darmstadt (Schülerfahrt morgens)" line="672" type="bus" vClass="bus" completeness="0.07" missingBefore="35" missingAfter="6">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="11619452" name="Bus 672: Darmstadt =&gt; Dieburg (Schülerfahrt morgens)" line="672" type="bus" vClass="bus" completeness="0.08" missingBefore="5" missingAfter="42">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="11619453" name="Bus 672: Dieburg =&gt; Darmstadt" line="672" type="bus" vClass="bus" completeness="0.07" missingBefore="31" missingAfter="6">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="11620350" name="Bus 673: Darmstadt =&gt; Gundernhausen Stetteritz (über Roßdorf Justin-Wagner-Schule)" line="673" type="bus" vClass="bus" completeness="0.12" missingBefore="6" missingAfter="21">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="11620351" name="Bus 673: Gundernhausen Stetteritz =&gt; Darmstadt (über Hochstraße)" line="673" type="bus" vClass="bus" completeness="0.07" missingBefore="17" missingAfter="6">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214812788#2 73372559 492925920#0 492925920#1 395456768 395456769#0 395456769#1 492925919 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+    </ptLine>
+    <ptLine id="11620352" name="Bus 673: Darmstadt =&gt; Gundernhausen Hauptstraße" line="673" type="bus" vClass="bus" completeness="0.15" missingBefore="6" missingAfter="15">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="11620353" name="Bus 673: Darmstadt =&gt; Gundernhausen Stetteritz" line="673" type="bus" vClass="bus" completeness="0.13" missingBefore="6" missingAfter="19">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="12033362" name="Bus F: Darmstadt Oberwaldhaus =&gt; Darmstadt Haasstraße" line="F" type="bus" vClass="bus" completeness="0.07" missingBefore="6" missingAfter="8">
+        <route edges="51873805 60263960 116556688 43135644#0 715913363#2 1290085525#0 1290085525#1 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="2385375149" name="Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd)"/>
+    </ptLine>
+    <ptLine id="12033363" name="Bus F: Darmstadt Haasstraße =&gt; Darmstadt Oberwaldhaus" line="F" type="bus" vClass="bus" completeness="0.12" missingBefore="8" missingAfter="6">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440131 506015829#1 506015832 700440133 116556686#1 -60263960 -51873805"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-2385375149" name="Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd)"/>
+    </ptLine>
+    <ptLine id="12771908" name="Bus 671: Wiebelsbach =&gt; Darmstadt (über Dieburg Hochschule und Dieburg Bahnhof)" line="671" type="bus" vClass="bus" completeness="0.07" missingBefore="31" missingAfter="6">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="12771909" name="Bus 671: Groß-Umstadt =&gt; Darmstadt (nicht über Dieburg Hochschule)" line="671" type="bus" vClass="bus" completeness="0.12" missingBefore="13" missingAfter="6">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="12835765" name="Bus WE1: Erzhausen =&gt; Darmstadt Schloß" line="WE1" type="bus" vClass="bus" completeness="0.03" missingBefore="39">
+        <route edges="1265069359"/>
+        <busStop id="763225186" name="Schloss"/>
+    </ptLine>
+    <ptLine id="12840975" name="Bus WE2: Worfelden =&gt; Darmstadt Schloß" line="WE2" type="bus" vClass="bus" completeness="0.03" missingBefore="29">
+        <route edges="1265069359"/>
+        <busStop id="763225186" name="Schloss"/>
+    </ptLine>
+    <ptLine id="13603098" name="Bus X69: Reichelsheim =&gt; Darmstadt" line="X69" type="bus" vClass="bus" completeness="0.06" missingBefore="30" missingAfter="1">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 700236092#0 700236092#1 700236093 44973978 506013711#1 35574708#1 4212051"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="13603110" name="Bus X69: Darmstadt =&gt; Reichelsheim" line="X69" type="bus" vClass="bus" completeness="0.09" missingBefore="1" missingAfter="30">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="13623728" name="Bus 671: Darmstadt =&gt; Schaafheim (Nachtverkehr)" line="671" type="bus" vClass="bus" completeness="0.11" missingBefore="5" missingAfter="27">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="171051" name="Bus MO1: Darmstadt Hbf =&gt; Rohrbach" line="MO1" type="bus" vClass="bus" completeness="0.07" missingBefore="6" missingAfter="32">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -150041565 1207893409#0 1207893409#1 1207884628#1 150041557#0 150041557#1 1207893064 1207893063"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+    </ptLine>
+    <ptLine id="180515" name="RB82: Eberbach =&gt; Frankfurt (Main) Hbf" line="RB82" type="train" vClass="rail" completeness="0.05" missingBefore="18" missingAfter="2">
+        <route edges="-269982828 -149518780#1 -149518780#0"/>
+        <busStop id="1624851978" name="Darmstadt Ost"/>
+    </ptLine>
+    <ptLine id="180545" name="RE80: Erbach =&gt; Darmstadt Hbf" line="RE80" type="train" vClass="rail" completeness="0.10" missingBefore="7" missingAfter="2">
+        <route edges="-269982828 -149518780#1 -149518780#0"/>
+        <busStop id="1624851978" name="Darmstadt Ost"/>
+    </ptLine>
+    <ptLine id="1897879" name="Bus K: Anne-Frank-Straße =&gt; Alfred-Messel-Weg" line="K" type="bus" vClass="bus" completeness="0.04" missingBefore="17" missingAfter="6">
+        <route edges="449551311 44973978 506013711#1 4019053#2 -150032770#12 -150032770#11 -150032770#8 -150032770#7 -150032770#5 -150032770#4 -150032770#3 -150032770#2 -150032770#1 -150032770#0"/>
+        <busStop id="763225186" name="Schloss"/>
+    </ptLine>
+    <ptLine id="1897880" name="Bus H: Anne-Frank-Straße =&gt; Kesselhutweg" line="H" type="bus" vClass="bus" completeness="0.05" missingBefore="14" missingAfter="7">
+        <route edges="449551311 44973978 506013711#1 4019053#2 -150032770#12 -150032770#11 -150032770#8 -150032770#7 -150032770#5 -150032770#4 -150032770#3 -150032770#2 -150032770#1 -150032770#0"/>
+        <busStop id="763225186" name="Schloss"/>
+    </ptLine>
+    <ptLine id="214212" name="Bus L: Heinheimer Straße =&gt; TU-Lichtwiese/Campus" line="L" type="bus" vClass="bus" completeness="0.08" missingBefore="6" missingAfter="6">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440131 506015829#1 506015832 506015830#1 59591195#0 59591195#1 59591195#2 73372559"/>
+        <busStop id="763225186" name="Schloss"/>
+    </ptLine>
+    <ptLine id="2398942" name="Bus X74: Darmstadt =&gt; Ober-Roden" line="X74" type="bus" vClass="bus" completeness="0.10" missingBefore="6" missingAfter="21">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="2917611" name="Bus 673: Gundernhausen Stetteritz =&gt; Darmstadt" line="673" type="bus" vClass="bus" completeness="0.12" missingBefore="17" missingAfter="4">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="3045546" name="Bus RH: Darmstadt Hbf =&gt; Ueberau" line="RH" type="bus" vClass="bus" completeness="0.07" missingBefore="6" missingAfter="36">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -150041565 1207893409#0 1207893409#1 1207884628#1 150041557#0 150041557#1 1207893064 1207893063"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+    </ptLine>
+    <ptLine id="3077999" name="Bus X71: Darmstadt =&gt; Wiebelsbach" line="X71" type="bus" vClass="bus" completeness="0.11" missingBefore="6" missingAfter="18">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="3081231" name="Bus GB: Darmstadt Hbf =&gt; Groß-Bieberau" line="GB" type="bus" vClass="bus" completeness="0.07" missingBefore="6" missingAfter="30">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -150041565 1207893409#0 1207893409#1 1207884628#1 150041557#0 150041557#1 1207893064 1207893063"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+    </ptLine>
+    <ptLine id="3348731" name="RB81: Darmstadt Hbf =&gt; Eberbach" line="RB81" type="train" vClass="rail" completeness="0.05" missingBefore="2" missingAfter="18">
+        <route edges="269982819#0 269982819#1 269982810"/>
+        <busStop id="1279090277" name="Darmstadt Ost"/>
+    </ptLine>
+    <ptLine id="3348732" name="RE80: Darmstadt Hbf =&gt; Erbach" line="RE80" type="train" vClass="rail" completeness="0.10" missingBefore="2" missingAfter="7">
+        <route edges="269982819#0 269982819#1 269982810"/>
+        <busStop id="1279090277" name="Darmstadt Ost"/>
+    </ptLine>
+    <ptLine id="3348733" name="RB82: Frankfurt (Main) Hbf =&gt; Eberbach" line="RB82" type="train" vClass="rail" completeness="0.05" missingBefore="2" missingAfter="18">
+        <route edges="269982819#0 269982819#1 269982810"/>
+        <busStop id="1279090277" name="Darmstadt Ost"/>
+    </ptLine>
+    <ptLine id="3397814" name="Bus X78 (Hauptroute): Darmstadt Luisenplatz =&gt; Groß-Zimmern Friedensschule" line="X78" type="bus" vClass="bus" completeness="0.33" missingBefore="1" missingAfter="7">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="3425811" name="Bus X78 (Hauptroute): Groß-Zimmern Friedensschule =&gt; Darmstadt Luisenplatz" line="X78" type="bus" vClass="bus" completeness="0.25" missingBefore="7" missingAfter="2">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="3425847" name="Bus X78 (Var. A): Darmstadt Luisenplatz =&gt; Groß-Zimmern Bertha-von-Suttner-Straße" line="X78" type="bus" vClass="bus" completeness="0.31" missingBefore="1" missingAfter="8">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="3425856" name="Bus X78 (Var. A): Groß-Zimmern Bertha-von-Suttner-Straße =&gt; Darmstadt Luisenplatz" line="X78" type="bus" vClass="bus" completeness="0.17" missingBefore="8" missingAfter="2">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="3426233" name="Bus X78 (Var. B): Darmstadt Hbf =&gt; Groß-Umstadt-Semd Schule" line="X78" type="bus" vClass="bus" completeness="0.14" missingBefore="6" missingAfter="13">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="3426378" name="Bus X78 (Var. B): Groß-Umstadt-Semd Schule =&gt; Darmstadt Hbf" line="X78" type="bus" vClass="bus" completeness="0.11" missingBefore="12" missingAfter="4">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="3426572" name="Bus X78 (Var. C): Darmstadt Hbf =&gt; Groß-Zimmern-Klein-Zimmern Markstraße" line="X78" type="bus" vClass="bus" completeness="0.16" missingBefore="6" missingAfter="10">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="3426573" name="Bus X78 (Var. C): Groß-Zimmern-Klein-Zimmern Markstraße =&gt; Darmstadt Hbf" line="X78" type="bus" vClass="bus" completeness="0.12" missingBefore="10" missingAfter="4">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="3428150" name="Bus 671: Groß-Umstadt =&gt; Darmstadt (über Dieburg Hochschule)" line="671" type="bus" vClass="bus" completeness="0.11" missingBefore="16" missingAfter="6">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="3433137" name="Bus 671: Darmstadt =&gt; Groß-Umstadt (über Dieburg Hochschule Süd)" line="671" type="bus" vClass="bus" completeness="0.17" missingBefore="5" missingAfter="15">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="3433151" name="Bus 671: Darmstadt =&gt; Groß-Umstadt (nicht über Dieburg Hochschule Süd)" line="671" type="bus" vClass="bus" completeness="0.21" missingBefore="5" missingAfter="10">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="3442206" name="Bus FM: Urberach =&gt; Darmstadt" line="FM" type="bus" vClass="bus" completeness="0.03" missingBefore="30" missingAfter="8">
+        <route edges="51873805 60263960 116556688 43135644#0 715913363#2 1290085525#0 1290085525#1 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="2385375149" name="Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd)"/>
+    </ptLine>
+    <ptLine id="3442783" name="Bus FM: Darmstadt =&gt; Urberach" line="FM" type="bus" vClass="bus" completeness="0.05" missingBefore="8" missingAfter="28">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440131 506015829#1 506015832 700440133 116556686#1 -60263960 -51873805"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-2385375150" name="Pützerstraße/Mathildenhöhe (Bushalt Richtung Nord)"/>
+    </ptLine>
+    <ptLine id="3443060" name="Bus K: Kleyerstraße =&gt; Alfred-Messel-Weg" line="K" type="bus" vClass="bus" completeness="0.06" missingBefore="9" missingAfter="6">
+        <route edges="449551311 44973978 506013711#1 4019053#2 -150032770#12 -150032770#11 -150032770#8 -150032770#7 -150032770#5 -150032770#4 -150032770#3 -150032770#2 -150032770#1 -150032770#0"/>
+        <busStop id="763225186" name="Schloss"/>
+    </ptLine>
+    <ptLine id="374803" name="Bus 678: Darmstadt =&gt; Groß-Umstadt" line="678" type="bus" vClass="bus" completeness="0.02" missingBefore="4" missingAfter="53">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440131 506015829#1 506015832 506015830#1 59591195#0 59591195#1 59591195#2 73372559"/>
+        <busStop id="763225186" name="Schloss"/>
+    </ptLine>
+    <ptLine id="381665" name="Bus 672: Darmstadt =&gt; Dieburg" line="672" type="bus" vClass="bus" completeness="0.09" missingBefore="5" missingAfter="34">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="69447" name="RB81: Erbach =&gt; Darmstadt Hbf" line="RB81" type="train" vClass="rail" completeness="0.06" missingBefore="14" missingAfter="2">
+        <route edges="-269982828 -149518780#1 -149518780#0"/>
+        <busStop id="1624851978" name="Darmstadt Ost"/>
+    </ptLine>
+    <ptLine id="7392170" name="Bus NHX: Niedernhausen =&gt; Darmstadt Mathildenplatz" line="NHX" type="bus" vClass="bus" completeness="0.09" missingBefore="26" missingAfter="3">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="818872832" name="Elisabethenstift/Woog"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="7392171" name="Bus NHX: Darmstadt Mathildenplatz =&gt; Niedernhausen" line="NHX" type="bus" vClass="bus" completeness="0.11" missingBefore="2" missingAfter="30">
+        <route edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2 -214846345#1 -38115197#1 -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2 -492925917 -40871379 -316668336#1 -316668336#0"/>
+        <busStop id="763225186" name="Schloss"/>
+        <busStop id="-243169788" name="Jugendstilbad"/>
+        <busStop id="-25599407" name="Elisabethenstift/Woog"/>
+        <busStop id="-15624443" name="Ostbahnhof"/>
+    </ptLine>
+    <ptLine id="9052207" name="Bus X71: Wiebelsbach = Darmstadt" line="X71" type="bus" vClass="bus" completeness="0.08" missingBefore="18" missingAfter="4">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+    <ptLine id="9052452" name="Bus X74: Ober-Roden =&gt; Darmstadt" line="X74" type="bus" vClass="bus" completeness="0.08" missingBefore="18" missingAfter="4">
+        <route edges="316668336#0 316668336#1 40871379 492925917 150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 38115197#0 38115197#1 214846345#1 214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0"/>
+        <busStop id="448433719" name="Ostbahnhof"/>
+        <busStop id="448433765" name="Jugendstilbad"/>
+    </ptLine>
+</ptLines>

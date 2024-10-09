@@ -1,0 +1,8 @@
+Warning: Program '0' at tlLogic 'joinedS_1313772506_1313772547_739266868_cluster_1313772554_1313772572_1866554678_2614084546_#19more' is incompatible with logic at junction 'cluster_1313772554_1313772572_1866554678_2614084546_#19more' (mutual conflict between link indices 1,32 tl indices 13,41 phase 17).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
+Warning: At actuated tlLogic 'joinedS_1313772506_1313772547_739266868_cluster_1313772554_1313772572_1866554678_2614084546_#19more', actuated phase 17 has no controlling detector.
+Warning: At actuated tlLogic 'joinedS_1313772506_1313772547_739266868_cluster_1313772554_1313772572_1866554678_2614084546_#19more', actuated phase 24 has no controlling detector.
+Warning: Program '0' at tlLogic 'joinedS_cluster_10267884300_2596331592_2596331599_2602360745_cluster_1629692632_1766057999_2169430079_2596331560_#2more' is incompatible with logic at junction 'cluster_10267884300_2596331592_2596331599_2602360745' (mutual conflict between link indices 4,10 tl indices 4,10 phase 0).
+  To avoid deadlock/collisions, either: rebuild the signal plan with a newer version of netconvert/netedit
+  or rebuild the network with option '--tls.ignore-internal-junction-jam' or include the program when building.
