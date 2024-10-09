@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-10-08 17:29:57 by Eclipse SUMO sumo Version 1.20.0
+<!-- generated on 2024-10-09 11:27:52 by Eclipse SUMO sumo Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm.net.xml.gz"/>
-        <route-files value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/trips.trips.xml"/>
-        <additional-files value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm_stops.add.xml"/>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="trips.trips.xml"/>
+        <additional-files value="osm_stops.add.xml"/>
     </input>
 
     <output>
-        <vehroute-output value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/vehroutes.xml"/>
-        <stop-output value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/stopinfos.xml"/>
+        <vehroute-output value="vehroutes.xml"/>
+        <stop-output value="stopinfos.xml"/>
     </output>
 
     <time>
@@ -28,7 +28,7 @@
 
     <report>
         <aggregate-warnings value="5"/>
-        <error-log value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/trips.trips.xml.errorlog"/>
+        <error-log value="trips.trips.xml.errorlog"/>
         <no-step-log value="true"/>
     </report>
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-10-08 17:29:59.119082 by osmWebWizard.py UNKNOWN
+<!-- generated on 2024-10-09 11:27:54.738010 by randomTrips.py UNKNOWN
 <configuration>
-    <net-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm.net.xml.gz"/>
-    <output-trip-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm.truck.trips.xml"/>
-    <route-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm.truck.rou.xml"/>
+    <net-file value="osm.net.xml.gz"/>
+    <output-trip-file value="osm.truck.trips.xml"/>
+    <route-file value="osm.truck.rou.xml"/>
     <prefix value="truck"/>
     <trip-attributes value="departLane=&quot;best&quot;"/>
     <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
@@ -20,16 +20,16 @@
 </configuration>
 -->
 
-<!-- generated on 2024-10-08 17:29:59 by Eclipse SUMO duarouter Version 1.20.0
+<!-- generated on 2024-10-09 11:27:54 by Eclipse SUMO duarouter Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm.net.xml.gz"/>
-        <route-files value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm.truck.trips.xml"/>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="osm.truck.trips.xml"/>
     </input>
 
     <output>
-        <output-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm.truck.trips.xml.tmp"/>
+        <output-file value="osm.truck.trips.xml.tmp"/>
         <alternatives-output value="NUL"/>
         <write-trips value="true"/>
     </output>

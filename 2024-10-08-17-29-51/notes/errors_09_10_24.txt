@@ -7,3 +7,23 @@ Warning: Vehicle 'pt_bus_GB:0.3' ends teleporting on edge '214846345#2', time=28
 Warning: Teleporting vehicle 'veh125'; waited too long (yield), lane='150041565_1', time=3570.00.
 Warning: Vehicle 'veh125' ends teleporting on edge '4295817#0', time=3603.00.
 Warning: Person 'ped213' is jammed on edge ':cluster_2714467721_748862941_w0', time=3692.00.
+
+
+Warning: Person 'ped31' could not find route across junction 'cluster_10574544873_10574544874_11752294598_11752294599_#8more' from walkingArea ':cluster_10574544873_10574544874_11752294598_11752294599_#8more_w2' to edge '439271817#1', time=525.00.
+
+-Setting Breakpoint at 520.00 to watch out what happends to the pedestrian
+-Locate edge 439271817#1 to find the place of the error
+-find pedestrian and look out for his route
+
+-opening netedit to look at the specific place where the error occours
+-open goolge maps to look if the junction is correct
+-correct the junction (crossing was missing)
+-save the new net file
+- run bash build.bat file to let the traffic reprocess
+
+Error: The edge '253230762' within the route  is not known.
+The route can not be build.
+
+- used duarouter to process new routes on osm.pedestrian.rou.xml
+
+

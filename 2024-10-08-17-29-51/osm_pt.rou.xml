@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-10-08 17:29:57.297599 by osmWebWizard.py UNKNOWN
+<!-- generated on 2024-10-09 11:27:52.627332 by ptlines2flows.py UNKNOWN
 <configuration>
-    <net-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm.net.xml.gz"/>
-    <ptlines-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm_ptlines.xml"/>
-    <ptstops-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm_stops.add.xml"/>
-    <output-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/osm_pt.rou.xml"/>
-    <stopinfos-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/stopinfos.xml"/>
-    <routes-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/vehroutes.xml"/>
-    <trips-file value="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/2024-10-08-17-29-51/trips.trips.xml"/>
+    <net-file value="osm.net.xml.gz"/>
+    <ptlines-file value="osm_ptlines.xml"/>
+    <ptstops-file value="osm_stops.add.xml"/>
+    <output-file value="osm_pt.rou.xml"/>
     <min-stops value="0"/>
     <extend-to-fringe value="True"/>
     <random-begin value="True"/>
