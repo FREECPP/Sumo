@@ -1,0 +1,9 @@
+Warning: Person 'ped31' could not find route across junction 'cluster_10574544873_10574544874_11752294598_11752294599_#8more' from walkingArea ':cluster_10574544873_10574544874_11752294598_11752294599_#8more_w2' to edge '439271817#1', time=525.00.
+Warning: Person 'ped151' is jammed on edge ':1629782474_w0', time=2570.00.
+Warning: Teleporting vehicle 'bus30'; waited too long (yield), lane='-253272005_0', time=2779.00.
+Warning: Vehicle 'bus30' teleports beyond arrival edge '253272005', time=2780.00.
+Warning: Teleporting vehicle 'pt_bus_GB:0.3'; waited too long (yield), lane='700440134_2', time=2896.00.
+Warning: Vehicle 'pt_bus_GB:0.3' ends teleporting on edge '214846345#2', time=2898.00.
+Warning: Teleporting vehicle 'veh125'; waited too long (yield), lane='150041565_1', time=3570.00.
+Warning: Vehicle 'veh125' ends teleporting on edge '4295817#0', time=3603.00.
+Warning: Person 'ped213' is jammed on edge ':cluster_2714467721_748862941_w0', time=3692.00.
