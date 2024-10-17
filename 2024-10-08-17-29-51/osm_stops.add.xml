@@ -72,13 +72,6 @@
         <access lane="185104104_0" pos="0.00" length="8.22" friendlyPos="1"/>
         <access lane="55556572_0" pos="52.85" length="8.11" friendlyPos="1"/>
     </busStop>
-    <busStop id="-243169788" name="Jugendstilbad" lane="-214846345#2_0" startPos="51.20" endPos="66.20" friendlyPos="true" lines="672 673 X69 671 MO1 X74 RH X71 GB X78 NHX">
-        <access lane="116556689#2_0" pos="0.20" length="9.31" friendlyPos="1"/>
-        <access lane="116556689#3_0" pos="0.20" length="8.29" friendlyPos="1"/>
-        <access lane="116556689#4_0" pos="0.00" length="7.75" friendlyPos="1"/>
-        <access lane="255797400_0" pos="0.18" length="7.00" friendlyPos="1"/>
-        <access lane="458284295_0" pos="0.17" length="6.65" friendlyPos="1"/>
-    </busStop>
     <busStop id="-25599407" name="Elisabethenstift/Woog" lane="-56163443#3_0" startPos="145.61" endPos="160.61" friendlyPos="true" lines="672 673 671 MO1 RH GB X78 NHX">
         <access lane="-150041716#1_0" pos="32.80" length="8.98" friendlyPos="1"/>
         <access lane="150041716#1_0" pos="4.38" length="11.98" friendlyPos="1"/>
@@ -99,13 +92,6 @@
         <access lane="-715835444#1_0" pos="38.03" length="85.24" friendlyPos="1"/>
         <access lane="185104104_0" pos="0.00" length="8.22" friendlyPos="1"/>
         <access lane="55556572_0" pos="52.85" length="8.11" friendlyPos="1"/>
-    </busStop>
-    <busStop id="3819369720" name="Jugendstilbad" lane="214846345#2_0" startPos="10.82" endPos="25.82" friendlyPos="true">
-        <access lane="-715913363#2_0" pos="9.55" length="11.10" friendlyPos="1"/>
-        <access lane="1244524930_0" pos="21.32" length="28.27" friendlyPos="1"/>
-        <access lane="255729754#0_0" pos="18.73" length="27.81" friendlyPos="1"/>
-        <access lane="255797400_0" pos="0.18" length="27.87" friendlyPos="1"/>
-        <access lane="458284295_0" pos="0.17" length="29.47" friendlyPos="1"/>
     </busStop>
     <busStop id="3819642157" name="Holzstraße" lane="378543233#0_0" startPos="0.00" endPos="11.92" friendlyPos="true">
         <access lane="378543235#0_0" pos="4.39" length="8.90" friendlyPos="1"/>
