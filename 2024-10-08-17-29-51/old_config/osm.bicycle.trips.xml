@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-10-17 18:37:53.464588 by randomTrips.py UNKNOWN
+<!-- generated on 2024-10-18 12:03:35.173652 by randomTrips.py UNKNOWN
 <configuration>
     <net-file value="osm.net.xml.gz"/>
     <output-trip-file value="osm.bicycle.trips.xml"/>
@@ -19,7 +19,7 @@
 </configuration>
 -->
 
-<!-- generated on 2024-10-17 18:37:53 by Eclipse SUMO duarouter Version 1.20.0
+<!-- generated on 2024-10-18 12:03:35 by Eclipse SUMO duarouter Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -134,7 +134,7 @@
     <trip id="bike90" type="bike_bicycle" depart="2308.32" departLane="best" departSpeed="max" from="378543233#0" to="285188051#1"/>
     <trip id="bike91" type="bike_bicycle" depart="2333.97" departLane="best" from="957138676#0" to="150041682"/>
     <trip id="bike92" type="bike_bicycle" depart="2359.62" departLane="best" departSpeed="max" from="-750168164" to="-624481020#0"/>
-    <trip id="bike93" type="bike_bicycle" depart="2385.27" departLane="best" from="59591192#2" to="-4144040#0"/>
+    
     <trip id="bike94" type="bike_bicycle" depart="2410.91" departLane="best" from="-28247401" to="1125742272"/>
     <trip id="bike95" type="bike_bicycle" depart="2436.56" departLane="best" from="797259708#1" to="43206316"/>
     <trip id="bike96" type="bike_bicycle" depart="2462.21" departLane="best" from="-378479743#4" to="715835444#1"/>

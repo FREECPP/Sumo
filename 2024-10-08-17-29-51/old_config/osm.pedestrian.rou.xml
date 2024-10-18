@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-10-17 18:37:54.613243 by randomTrips.py UNKNOWN
+<!-- generated on 2024-10-18 12:03:36.329981 by randomTrips.py UNKNOWN
 <configuration>
     <net-file value="osm.net.xml.gz"/>
     <additional-files value="osm_stops.add.xml,osm_pt.rou.xml"/>
@@ -17,7 +17,7 @@
 </configuration>
 -->
 
-<!-- generated on 2024-10-17 18:37:54 by Eclipse SUMO duarouter Version 1.20.0
+<!-- generated on 2024-10-18 12:03:36 by Eclipse SUMO duarouter Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -57,31 +57,29 @@
     </person>
     <person id="ped3" type="ped_pedestrian" depart="50.70">
         <walk edges="638694840#0 4213561#1 366601855 366601856 256102750#3 256105105#5 256105105#6 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-25599407" lines="673:3" intended="pt_bus_673:3.0" depart="248.00"/> <!-- Elisabethenstift/Woog -->
-        <walk edges="255797401#0 255797401#1 494297577#0 494297577#1 150041624#0 150041624#1 150041624#2 -150041699#2"/>
+        <ride busStop="-15624443" lines="673:3" intended="pt_bus_673:3.0" depart="248.00"/> <!-- Ostbahnhof -->
+        <walk edges="150041699#1 -150041699#2"/>
     </person>
     <person id="ped4" type="ped_pedestrian" depart="67.60">
         <walk edges="1287285290#3 -1287285290#2 -1287285290#1 -1287285290#0"/>
     </person>
     <person id="ped5" type="ped_pedestrian" depart="84.50">
-        <walk edges="-4144040#1 -4144040#2 -4144040#3 -4144040#4 255729754#2 255729754#1 255729754#0 116556689#6 116556689#5 255797400" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="673:0" intended="pt_bus_673:0.0" depart="286.00"/> <!-- Elisabethenstift/Woog -->
-        <walk edges="459339932#1 150041716#1"/>
+        <walk edges="-4144040#1 4195580#0 4195580#1 4195580#2 715835444#1 715835444#2 -1153038902#4 -1153038902#2 -1153038902#0 29895520#3 -23101679#0 150041551#1 150041551#2 150041716#0 150041716#1"/>
     </person>
     <person id="ped6" type="ped_pedestrian" depart="101.40">
-        <walk edges="-1185258343 1185258336#0 1185258336#2 1185258339 -29895520#0 -29895519#2 -29895519#1 150041716#3 150041716#4 1125742271 116556689#6 255729754#0 255729754#1 255729754#2 700440148 378479743#0 378479743#1 378479743#2 365216934 -365216934"/>
+        <walk edges="-1185258343 -1153038902#2 -1153038902#0 29895520#3 -23101679#0 150041551#1 -150041551#3 255797405#1 255797402#1 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="448433765" lines="672:1" intended="pt_bus_672:1.0" depart="344.00"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#1 255729754#2 700440148 378479743#0 378479743#1 378479743#2 365216934 -365216934"/>
     </person>
     <person id="ped7" type="ped_pedestrian" depart="118.30">
-        <walk edges="285278284#0 596666653 -59591191 519402126 83079953 255729804#0 116556689#2 458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="673:0" intended="pt_bus_673:0.0" depart="286.00"/> <!-- Elisabethenstift/Woog -->
+        <walk edges="285278284#0 596666653 378491236 150041636#0 150041636#1 150041636#2 519402125#0 255797401#1 255797401#0" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 150041551#2 150041551#1 150041551#0 715835444#4 715835444#5 23508224"/>
     </person>
     <person id="ped8" type="ped_pedestrian" depart="135.20">
         <walk edges="-4144040#2 4144040#3 4144040#4 700440148 -378479743#0 -378479743#1 -378479743#2 -378479743#3 -23248109#1 -23248109#0 23248118 -689756683 -638694840#1 -638694840#0 4213561#1 4213561#0 4213557 256102749 256102750#1 256102746#1 256102744"/>
     </person>
     <person id="ped9" type="ped_pedestrian" depart="152.10">
-        <walk edges="458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="672:2" intended="pt_bus_672:2.0" depart="186.00"/> <!-- Elisabethenstift/Woog -->
+        <walk edges="458284295 116556689#3 116556689#4 116556689#5 1125742271 -150041716#4 -150041716#3 -150041716#2 -150041716#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
         <walk edges="255797401#0 255797401#1 494297577#0 494297577#1 150041624#0 115485617 -115485620#0"/>
     </person>
     <person id="ped10" type="ped_pedestrian" depart="169.00">
@@ -112,20 +110,17 @@
         <walk edges="150041716#1 886547966 245221889"/>
     </person>
     <person id="ped19" type="ped_pedestrian" depart="321.11">
-        <walk edges="56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X69:1" intended="pt_bus_X69:1.0" depart="433.00"/> <!-- Jugendstilbad -->
-        <walk edges="255797400"/>
+        <walk edges="56028463#1 -56015406#1 -56015406#0 256102750#3 366601856 366601855 4213561#1 638694840#0 638694840#1 689756683 -23248118 -23248109#0 -23248109#1 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 116556689#5 255797400"/>
     </person>
     <person id="ped20" type="ped_pedestrian" depart="338.01">
         <walk edges="359458205 -884145210#0 359458217#0 -359458208#1 50507098#0 50507110 196656222#1 149518798 -149518798"/>
     </person>
     <person id="ped21" type="ped_pedestrian" depart="354.91">
-        <walk edges="-4195580#2 148061769 715910743#2 116556689#5 255797400" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="1244524930 689912266 -624481020#4 -624481020#3"/>
+        <walk edges="-4195580#2 148061769 715910743#2 116556689#5 116556689#4 116556689#3 116556689#2 715911183#5 715911183#6 -689912267#0 -624481020#4 -624481020#3"/>
     </person>
     <person id="ped22" type="ped_pedestrian" depart="371.81">
         <walk edges="-150041645#4 359458217#2" busStop="448433719"/> <!-- Ostbahnhof -->
-        <ride busStop="818872832" lines="X78:1" intended="pt_bus_X78:1.0" depart="437.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="818872832" lines="X78:1" intended="pt_bus_X78:1.0" depart="438.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="150041594#0 255797402#1 255797405#1 -150041551#3 -4295817#3"/>
     </person>
     <person id="ped24" type="ped_pedestrian" depart="405.61">
@@ -135,10 +130,7 @@
         <walk edges="1125742272 700236092#1 700236092#0 378479743#6 -378479743#5 -378479743#4"/>
     </person>
     <person id="ped26" type="ped_pedestrian" depart="439.41">
-        <walk edges="-539841923#1 150032863#1 150032863#2 150032863#3 150032863#4 -1287285290#0 984768175" busStop="4734204898"/> <!-- Kongresszentrum darmstadtium -->
-        <walk edges="26937083#1 26937083#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="RH:1" intended="pt_bus_RH:1.0" depart="764.00"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 715910743#0"/>
+        <walk edges="-539841923#1 150032863#1 149518802#0 149518793 365216933 378479743#4 378479743#3 378479743#2 378479743#1 378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 715910743#0"/>
     </person>
     <person id="ped28" type="ped_pedestrian" depart="473.21">
         <walk edges="-29895520#3 -23101679#0 150041551#1 -150041551#3 255797405#1 255797402#1 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
@@ -163,12 +155,11 @@
         <walk edges="-715835444#2 -715835444#1 -4195580#2 -4195580#1 -4195580#0 -4144040#0 4144040#0 4144040#1 4144040#2 -484022097 4195610#2 13858853 47492539 13858854 -24507771 -1287285290#3 539841923#0 -539841923#1"/>
     </person>
     <person id="ped35" type="ped_pedestrian" depart="591.51">
-        <walk edges="-378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 253230759#0 253230759#1 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 715911183#0"/>
+        <walk edges="-378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 715911183#0"/>
     </person>
     <person id="ped36" type="ped_pedestrian" depart="608.41">
         <walk edges="56447699#1 286646440 256102748 256105105#9 256102746#0 256102744 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-25599407" lines="673:0" intended="pt_bus_673:0.1" depart="741.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="RH:1" intended="pt_bus_RH:1.0" depart="734.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 150041551#2 150041551#1 23101679#0 -29895520#3 1153038902#0 1153038902#2 1153038902#4 -715835444#2"/>
     </person>
     <person id="ped37" type="ped_pedestrian" depart="625.31">
@@ -178,8 +169,7 @@
         <walk edges="700236092#1 1125742272 984768176#1 984768176#2 150032812#1"/>
     </person>
     <person id="ped40" type="ped_pedestrian" depart="676.01">
-        <walk edges="255729754#2 255729754#1 255729754#0 116556689#6 116556689#5 255797400" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="672:2" intended="pt_bus_672:2.1" depart="786.00"/> <!-- Elisabethenstift/Woog -->
+        <walk edges="255729754#2 255729754#1 255729754#0 116556689#6 1125742271 -150041716#4 -150041716#3 -150041716#2 -150041716#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
         <walk edges="255797401#0 255797401#1 494297577#0 494297577#1 150041624#0 -526519487"/>
     </person>
     <person id="ped41" type="ped_pedestrian" depart="692.91">
@@ -191,9 +181,7 @@
         <walk edges="1185258336#3 1185258336#2 -1185258336#0 1153038902#4 715835444#2 715835444#1 4195580#2 4195580#1 4195580#0 -4144040#1 -4144040#2"/>
     </person>
     <person id="ped43" type="ped_pedestrian" depart="726.71">
-        <walk edges="987109590 -987109589#0 -638694840#0 4213561#1 366601855 366601856 256102750#3 256105105#5 256105105#6 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X69:1" intended="pt_bus_X69:1.1" depart="1033.00"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 1125742271 -150041716#4 150041716#4"/>
+        <walk edges="987109590 987109589#1 689756683 -23248118 -23248109#0 -23248109#1 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 1125742271 -150041716#4 150041716#4"/>
     </person>
     <person id="ped44" type="ped_pedestrian" depart="743.61">
         <walk edges="-150041716#2 150041716#3 150041716#4 1125742271 116556689#6 255729754#0 255729754#1 255729754#2 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 700236092#0 700236092#1 1125742272 984768176#1 -149518804#0"/>
@@ -201,8 +189,8 @@
     <person id="ped45" type="ped_pedestrian" depart="760.51">
         <walk edges="-23401995#1 -149518804#3 -149518804#2 -149518804#0 -984768176#1 984768175" busStop="4734204898"/> <!-- Kongresszentrum darmstadtium -->
         <walk edges="26937083#1 26937083#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X69:1" intended="pt_bus_X69:1.1" depart="1033.00"/> <!-- Jugendstilbad -->
-        <walk edges="458284295 116556689#2 255729804#0 83079953 519402126 59591191 378491236 150041636#0 -28230108 28230108"/>
+        <ride busStop="-25599407" lines="671:2" intended="pt_bus_671:2.1" depart="1074.00"/> <!-- Elisabethenstift/Woog -->
+        <walk edges="255797401#0 255797401#1 519402125#0 -150041636#2 -150041636#1 -28230108 28230108"/>
     </person>
     <person id="ped46" type="ped_pedestrian" depart="777.41">
         <walk edges="43206409 -69990712 -43206316 -150041624#3 -150041624#2 -150041624#1 -150041624#0 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
@@ -216,8 +204,7 @@
     </person>
     <person id="ped48" type="ped_pedestrian" depart="811.21">
         <walk edges="987109589#1 -987109589#0 -638694840#0 4213561#1 366601855 366601856 256102750#3 256105105#5 256105105#6 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X69:1" intended="pt_bus_X69:1.1" depart="1033.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="X78:0" intended="pt_bus_X78:0.0" depart="1234.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="671:2" intended="pt_bus_671:2.1" depart="1074.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 150041551#2 150041551#1 23101679#0"/>
     </person>
     <person id="ped49" type="ped_pedestrian" depart="828.11">
@@ -248,8 +235,7 @@
         <walk edges="255797401#0 255797401#1 494297577#0 494297577#1 150041624#0 -526519487"/>
     </person>
     <person id="ped56" type="ped_pedestrian" depart="946.42">
-        <walk edges="150041699#1 -1160713521 359458217#2" busStop="448433719"/> <!-- Ostbahnhof -->
-        <ride busStop="818872832" lines="671:3" intended="pt_bus_671:3.1" depart="1194.00"/> <!-- Elisabethenstift/Woog -->
+        <walk edges="150041699#1 -700440130#0 -700440130#1 -700440128 700440129 1290085526#0 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
         <ride busStop="448433765" lines="RH:0" intended="pt_bus_RH:0.2" depart="1333.00"/> <!-- Jugendstilbad -->
         <walk edges="1244524930 253230759#1 253230759#0 -378479743#0 -35098345"/>
     </person>
@@ -258,7 +244,7 @@
     </person>
     <person id="ped61" type="ped_pedestrian" depart="1030.92">
         <walk edges="4213557 256102749 56028463#0 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-25599407" lines="MO1:1" intended="pt_bus_MO1:1.1" depart="1141.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="671:4" intended="pt_bus_671:4.0" depart="1134.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 150041551#2 150041551#1 23101679#0 23101679#1"/>
     </person>
     <person id="ped63" type="ped_pedestrian" depart="1064.72">
@@ -273,10 +259,7 @@
         <walk edges="255729754#1 255729754#2 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 700236092#0 700236092#1 1125742272 984768176#1 255729814#0 255729814#1 -150032770#6"/>
     </person>
     <person id="ped66" type="ped_pedestrian" depart="1115.42">
-        <walk edges="572523427 150032770#5 -150032770#6 255729814#1 255729814#0 -984768176#1 984768175" busStop="4734204898"/> <!-- Kongresszentrum darmstadtium -->
-        <walk edges="26937083#1 26937083#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="673:3" intended="pt_bus_673:3.2" depart="1448.00"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 -715911183#0 715911184"/>
+        <walk edges="572523427 150032770#5 -150032770#6 255729814#1 255729814#0 -984768176#1 -150032873 700236092#1 700236092#0 378479743#6 378479743#5 378479743#4 378479743#3 378479743#2 378479743#1 378479743#0 700440148 255729754#2 255729754#1 255729754#0 -255729776 715911184"/>
     </person>
     <person id="ped67" type="ped_pedestrian" depart="1132.32">
         <walk edges="-150041699#1 -700440130#0 -700440130#1 -700440128 881694397 150041624#2"/>
@@ -301,15 +284,14 @@
         <walk edges="23508141#1 715835444#1 4195580#2 4195580#1 4195580#0 -4144040#1 -4144040#2 4144040#3 4144040#4 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 700236092#0 365217759"/>
     </person>
     <person id="ped74" type="ped_pedestrian" depart="1250.62">
-        <walk edges="-378479737#0 116556689#2 458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 1125742271 -150041716#4 -150041716#3 29895519#1 29895519#2 715802321 -715802321"/>
+        <walk edges="-378479737#0 116556689#2 116556689#3 116556689#4 116556689#5 1125742271 -150041716#4 -150041716#3 29895519#1 29895519#2 715802321 -715802321"/>
     </person>
     <person id="ped75" type="ped_pedestrian" depart="1267.52">
         <walk edges="987109589#0 987109589#1 689756683 -23248118 -23248109#0 -23248109#1 -378479743#3 -378479743#2 -378479743#1 -378479743#0 253230759#0 253230759#1 1244524930 255729797#1 255729797#0 255729804#3 255729804#0 83079953 519402126 59591191 596666653 285278284#0"/>
     </person>
     <person id="ped76" type="ped_pedestrian" depart="1284.42">
         <walk edges="148061776#1 28230108 150041636#1 150041636#2 519402125#0 255797401#1 255797401#0" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
-        <ride busStop="-15624443" lines="671:4" intended="pt_bus_671:4.0" depart="1640.00"/> <!-- Ostbahnhof -->
+        <ride busStop="-15624443" lines="673:2" intended="pt_bus_673:2.2" depart="1598.00"/> <!-- Ostbahnhof -->
         <walk edges="196656222#0 196656222#1 196656222#2"/>
     </person>
     <person id="ped77" type="ped_pedestrian" depart="1301.32">
@@ -331,13 +313,12 @@
         <walk edges="1244524930 4209642 28247400#0 28247399"/>
     </person>
     <person id="ped81" type="ped_pedestrian" depart="1368.92">
-        <walk edges="-4209642 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 715910743#0 715910744#0 694832101 694836606 694836603 694836605 694836604"/>
+        <walk edges="-4209642 1244524930" busStop="448433765"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#0 116556689#6 715910743#0 715910744#0 694832101 694836606 694836603 694836605 694836604"/>
     </person>
     <person id="ped82" type="ped_pedestrian" depart="1385.82">
         <walk edges="56028463#0 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="GB:1" intended="pt_bus_GB:1.1" depart="1481.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="X69:1" intended="pt_bus_X69:1.2" depart="1714.00"/> <!-- Ostbahnhof -->
+        <ride busStop="-15624443" lines="X78:4" intended="pt_bus_X78:4.1" depart="1618.00"/> <!-- Ostbahnhof -->
         <walk edges="150041699#1 150041699#2 -150041624#2"/>
     </person>
     <person id="ped84" type="ped_pedestrian" depart="1419.62">
@@ -352,8 +333,8 @@
         <walk edges="150032877 23508142#0 -23508141#0 -715835444#2 -715835444#3 -150041551#0 -150041551#1 4295817#3 4295817#1"/>
     </person>
     <person id="ped87" type="ped_pedestrian" depart="1470.32">
-        <walk edges="458284292#2 83079953 255729804#0 116556689#2 458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="X71:0" intended="pt_bus_X71:0.1" depart="1665.00"/> <!-- Ostbahnhof -->
+        <walk edges="458284292#2 519402126 59591191 378491236 150041636#0 150041636#1 150041636#2 519402125#0 255797401#1 255797401#0" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-15624443" lines="X78:2" intended="pt_bus_X78:2.1" depart="1816.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398 -1160713521 -359458208#2"/>
     </person>
     <person id="ped88" type="ped_pedestrian" depart="1487.22">
@@ -373,7 +354,7 @@
     </person>
     <person id="ped94" type="ped_pedestrian" depart="1588.63">
         <walk edges="-359458208#2 359458217#2" busStop="448433719"/> <!-- Ostbahnhof -->
-        <ride busStop="818872832" lines="X78:1" intended="pt_bus_X78:1.2" depart="1637.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="818872832" lines="X78:1" intended="pt_bus_X78:1.2" depart="1638.00"/> <!-- Elisabethenstift/Woog -->
         <ride busStop="448433765" lines="RH:0" intended="pt_bus_RH:0.3" depart="1933.00"/> <!-- Jugendstilbad -->
         <walk edges="255729754#1 255729754#2 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 700236092#0 700236092#1 1125742272 984768176#1 984768176#2 149518804#2 149518804#3"/>
     </person>
@@ -399,8 +380,9 @@
         <walk edges="150041716#1 886547966"/>
     </person>
     <person id="ped105" type="ped_pedestrian" depart="1774.53">
-        <walk edges="-539841923#0 150032863#1 149518802#0 149518793 365216933 378479743#4 378479743#3 378479743#2 378479743#1 378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 116556689#5 255797400" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="672:4" intended="pt_bus_672:4.1" depart="2345.00"/> <!-- Elisabethenstift/Woog -->
+        <walk edges="-539841923#0 150032863#1 150032863#2 150032863#3 150032863#4 -1287285290#0 984768175" busStop="4734204898"/> <!-- Kongresszentrum darmstadtium -->
+        <walk edges="26937083#1 26937083#0" busStop="763225186"/> <!-- Schloss -->
+        <ride busStop="-25599407" lines="X78:0" intended="pt_bus_X78:0.2" depart="2110.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 255797405#1 255797402#1 150041594#0 1290085526#0 700440129 4295817#0"/>
     </person>
     <person id="ped106" type="ped_pedestrian" depart="1791.43">
@@ -412,9 +394,9 @@
         <walk edges="1244524930 253230759#1 253230759#0 -378479743#0 -378479743#1 -378479743#2 -378479743#3 -23248109#1 -23248109#0 23248118 -689756683 987109589#1"/>
     </person>
     <person id="ped108" type="ped_pedestrian" depart="1825.23">
-        <walk edges="253230759#1 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="X74:0" intended="pt_bus_X74:0.2" depart="2051.00"/> <!-- Ostbahnhof -->
+        <walk edges="253230759#1 1244524930" busStop="448433765"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#0 116556689#6 1125742271 -150041716#4 -150041716#3 -150041716#2 -150041716#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-15624443" lines="X78:0" intended="pt_bus_X78:0.2" depart="2346.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398 -1160713521 359458208#2 -884145210#1 -884145210#0 -359458219 359458219"/>
     </person>
     <person id="ped110" type="ped_pedestrian" depart="1859.03">
@@ -428,8 +410,7 @@
     <person id="ped112" type="ped_pedestrian" depart="1892.83">
         <walk edges="-150032770#6 255729814#1 255729814#0 -984768176#1 984768175" busStop="4734204898"/> <!-- Kongresszentrum darmstadtium -->
         <walk edges="26937083#1 26937083#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X69:1" intended="pt_bus_X69:1.3" depart="2233.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="672:4" intended="pt_bus_672:4.1" depart="2345.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="X78:2" intended="pt_bus_X78:2.2" depart="2148.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 255797405#1 255797402#1"/>
     </person>
     <person id="ped113" type="ped_pedestrian" depart="1909.73">
@@ -460,8 +441,7 @@
     <person id="ped120" type="ped_pedestrian" depart="2028.03">
         <walk edges="1287285290#1 -1287285290#0 984768175" busStop="4734204898"/> <!-- Kongresszentrum darmstadtium -->
         <walk edges="26937083#1 26937083#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X69:1" intended="pt_bus_X69:1.3" depart="2233.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="672:4" intended="pt_bus_672:4.1" depart="2345.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="671:2" intended="pt_bus_671:2.3" depart="2274.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 255797405#1 255797402#1"/>
     </person>
     <person id="ped121" type="ped_pedestrian" depart="2044.93">
@@ -471,19 +451,15 @@
         <walk edges="459339932#1 150041551#2 150041551#1 150041551#0 715835444#4 715835444#5"/>
     </person>
     <person id="ped122" type="ped_pedestrian" depart="2061.83">
-        <walk edges="-378479743#1 -378479743#0 253230759#0 253230759#1 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="X69:1" intended="pt_bus_X69:1.3" depart="2314.00"/> <!-- Ostbahnhof -->
+        <walk edges="-378479743#1 -378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 1125742271 -150041716#4 -150041716#3 -150041716#2 -150041716#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-15624443" lines="672:2" intended="pt_bus_672:2.4" depart="2718.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398 -1160713521 359458217#0"/>
     </person>
     <person id="ped123" type="ped_pedestrian" depart="2078.73">
         <walk edges="-43206316 -150041624#3 -150041624#2 881694397 -4295817#0 -4295817#1 -4295817#3 150041551#1 23101679#0 -29895520#3 1153038902#0 1153038902#2 1185258336#0"/>
     </person>
     <person id="ped124" type="ped_pedestrian" depart="2095.63">
-        <walk edges="319910910#1 319910910#0 150032863#4 -1287285290#0 984768175" busStop="4734204898"/> <!-- Kongresszentrum darmstadtium -->
-        <walk edges="26937083#1 26937083#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="MO1:1" intended="pt_bus_MO1:1.3" depart="2341.00"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 715910743#0 715910744#0 694832101 694836606 694836603 694836605 -694836604"/>
+        <walk edges="319910910#1 319910910#0 150032863#3 150032863#2 149518802#0 149518793 365216933 378479743#4 378479743#3 378479743#2 378479743#1 378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 715910743#0 715910744#0 694832101 694836606 694836603 694836605 -694836604"/>
     </person>
     <person id="ped125" type="ped_pedestrian" depart="2112.53">
         <walk edges="-715835444#3 -150041551#0 -150041551#1 -150041551#3 255797405#1 255797402#1 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
@@ -492,7 +468,7 @@
     </person>
     <person id="ped126" type="ped_pedestrian" depart="2129.43">
         <walk edges="-150041624#3 -150041624#2 -150041624#1 -150041624#0 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
-        <ride busStop="448433765" lines="RH:0" intended="pt_bus_RH:0.4" depart="2533.00"/> <!-- Jugendstilbad -->
+        <ride busStop="448433765" lines="673:4" intended="pt_bus_673:4.3" depart="2386.00"/> <!-- Jugendstilbad -->
         <walk edges="255729754#1 255729754#2 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 700236092#0 700236092#1 1125742272 984768176#1 984768176#2 150032812#1"/>
     </person>
     <person id="ped127" type="ped_pedestrian" depart="2146.33">
@@ -504,8 +480,7 @@
     <person id="ped129" type="ped_pedestrian" depart="2180.14">
         <walk edges="-539841923#0 150032863#1 150032863#2 150032863#3 150032863#4 -1287285290#0 984768175" busStop="4734204898"/> <!-- Kongresszentrum darmstadtium -->
         <walk edges="26937083#1 26937083#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X74:0" intended="pt_bus_X74:0.3" depart="2494.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="673:0" intended="pt_bus_673:0.4" depart="2686.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="672:4" intended="pt_bus_672:4.2" depart="2558.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 150041551#2 150041551#1 150041551#0 715835444#4"/>
     </person>
     <person id="ped131" type="ped_pedestrian" depart="2213.94">
@@ -519,12 +494,12 @@
     </person>
     <person id="ped133" type="ped_pedestrian" depart="2247.74">
         <walk edges="256105105#7 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-25599407" lines="MO1:1" intended="pt_bus_MO1:1.3" depart="2341.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="671:4" intended="pt_bus_671:4.2" depart="2334.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="255797401#0 255797401#1 182982119#0 881694399 957138676#0"/>
     </person>
     <person id="ped134" type="ped_pedestrian" depart="2264.64">
         <walk edges="286646440 256102748 256105105#9 256102746#0 256102744 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-25599407" lines="672:2" intended="pt_bus_672:2.4" depart="2482.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="671:5" intended="pt_bus_671:5.2" depart="2372.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="255797401#0 255797401#1 494297577#0 494297577#1 150041624#0 115485617 115485620#1 -115485620#1"/>
     </person>
     <person id="ped135" type="ped_pedestrian" depart="2281.54">
@@ -535,8 +510,8 @@
     </person>
     <person id="ped137" type="ped_pedestrian" depart="2315.34">
         <walk edges="-257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="672:2" intended="pt_bus_672:2.4" depart="2482.00"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 -715911183#0 -148061769 715835444#1 -23508141#1"/>
+        <ride busStop="-25599407" lines="671:5" intended="pt_bus_671:5.2" depart="2372.00"/> <!-- Elisabethenstift/Woog -->
+        <walk edges="459339932#1 150041551#2 150041551#1 23101679#0 -29895520#3 1153038902#0 1153038902#2 1153038902#4 715835444#2 -23508141#1"/>
     </person>
     <person id="ped138" type="ped_pedestrian" depart="2332.24">
         <walk edges="-23248109#1 -378479743#3 -378479743#2 -378479743#1 -378479743#0 253230759#0"/>
@@ -547,13 +522,13 @@
     <person id="ped140" type="ped_pedestrian" depart="2366.04">
         <walk edges="359458217#2" busStop="448433719"/> <!-- Ostbahnhof -->
         <ride busStop="818872832" lines="671:3" intended="pt_bus_671:3.3" depart="2394.00"/> <!-- Elisabethenstift/Woog -->
-        <ride busStop="448433765" lines="RH:0" intended="pt_bus_RH:0.4" depart="2533.00"/> <!-- Jugendstilbad -->
+        <ride busStop="448433765" lines="GB:0" intended="pt_bus_GB:0.4" depart="2573.00"/> <!-- Jugendstilbad -->
         <walk edges="1244524930 253230759#1 253230759#0 -378479743#0"/>
     </person>
     <person id="ped141" type="ped_pedestrian" depart="2382.94">
-        <walk edges="28247400#1 -28247400#0 -4209642 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="X74:0" intended="pt_bus_X74:0.3" depart="2651.00"/> <!-- Ostbahnhof -->
+        <walk edges="28247400#1 -28247400#0 -4209642 1244524930" busStop="448433765"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#0 116556689#6 1125742271 -150041716#4 -150041716#3 -150041716#2 -150041716#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-15624443" lines="X78:0" intended="pt_bus_X78:0.3" depart="2946.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398 -1160713521 150041645#4 -359458213 53207954#0 -53207954#1"/>
     </person>
     <person id="ped142" type="ped_pedestrian" depart="2399.84">
@@ -566,15 +541,10 @@
         <walk edges="-1153038902#2 1153038902#4 715835444#2 715835444#1 4195580#2 4195580#1"/>
     </person>
     <person id="ped146" type="ped_pedestrian" depart="2467.44">
-        <walk edges="28247401 -624481020#4 689912266 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="673:0" intended="pt_bus_673:0.4" depart="2686.00"/> <!-- Elisabethenstift/Woog -->
-        <walk edges="255797401#0 255797401#1 494297577#0 494297577#1 150041624#0 -526519487"/>
+        <walk edges="28247401 -624481020#4 -689912267#0 -715911183#6 -715911183#5 255729804#0 83079953 519402126 59591191 378491236 150041636#0 150041636#1 150041636#2 519402125#0 494297577#0 494297577#1 150041624#0 -526519487"/>
     </person>
     <person id="ped147" type="ped_pedestrian" depart="2484.34">
-        <walk edges="378479743#4 378479743#3 378479743#2 378479743#1 378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 116556689#5 255797400" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="671:4" intended="pt_bus_671:4.2" depart="2771.00"/> <!-- Elisabethenstift/Woog -->
-        <walk edges="150041716#1 886547966 245221889"/>
+        <walk edges="378479743#4 378479743#3 378479743#2 378479743#1 378479743#0 700440148 255729754#2 255729754#1 255729754#0 116556689#6 1125742271 -150041716#4 -150041716#3 29895519#1 886547965#1 886404164#0 886404164#1 245221889"/>
     </person>
     <person id="ped149" type="ped_pedestrian" depart="2518.14">
         <walk edges="-150041636#1 -150041636#0 -378491236 59591191"/>
@@ -583,8 +553,8 @@
         <walk edges="494297577#0 255797402#0"/>
     </person>
     <person id="ped152" type="ped_pedestrian" depart="2568.84">
-        <walk edges="-28247401 -624481020#4 689912266 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 116556689#6 -255729776"/>
+        <walk edges="-28247401 -624481020#4 689912266 1244524930" busStop="448433765"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#0 -255729776"/>
     </person>
     <person id="ped153" type="ped_pedestrian" depart="2585.74">
         <walk edges="-700440130#0 -700440130#1 -700440128 700440129 1290085526#0 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
@@ -598,12 +568,12 @@
         <walk edges="689912266 1244524930 253230759#1 253230759#0 -378479743#0 -378479743#1 -378479743#2 -378479743#3 -378479743#4 -378479743#5"/>
     </person>
     <person id="ped157" type="ped_pedestrian" depart="2653.34">
-        <walk edges="4213561#0 366601855 366601856 256102750#3 256105105#5 256105105#6 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X69:1" intended="pt_bus_X69:1.4" depart="2833.00"/> <!-- Jugendstilbad -->
-        <walk edges="458284295 116556689#2 255729804#0 83079953 519402126 59591191 596666653"/>
+        <walk edges="4213561#0 4213561#1 638694840#0 638694840#1 689756683 -23248118 -23248109#0 -23248109#1 -378479743#3 -378479743#2 -378479743#1 -378479743#0 253230759#0 253230759#1 1244524930 255729797#1 255729797#0 255729804#3 255729804#0 83079953 519402126 59591191 596666653"/>
     </person>
     <person id="ped158" type="ped_pedestrian" depart="2670.24">
-        <walk edges="1185258340#0 1153038902#2 1153038902#4 715835444#2 715835444#1 4195580#2 4195580#1 4195580#0 -4144040#1 -4144040#2 484022097 4195610#2 13858853 47492539 13858854 -24507771 -1287285290#3 -218848625#1 -327864903#1 -327864903#0 150032770#0 150032770#1 150032770#2 150032770#5 150032770#6 -797259708#1 26730977#2"/>
+        <walk edges="1185258340#0 29895520#2 29895520#3 -23101679#0 150041551#1 -150041551#3 255797405#1 255797402#1 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="448433765" lines="671:0" intended="pt_bus_671:0.4" depart="2883.00"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#1 255729754#2 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 700236092#0 700236092#1 1125742272 984768176#1 984768176#2 149518804#2 149518804#3 26730977#2"/>
     </person>
     <person id="ped161" type="ped_pedestrian" depart="2720.94">
         <walk edges="459339929 -23599727#0 253230759#0 700440148 -4144040#4 -585579893 585579893"/>
@@ -628,12 +598,12 @@
     </person>
     <person id="ped170" type="ped_pedestrian" depart="2873.05">
         <walk edges="439271815#1 395456769#1 24509268 -253230762 -256102751#0 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="673:2" intended="pt_bus_673:2.5" depart="3179.00"/> <!-- Jugendstilbad -->
-        <walk edges="255797400 116556689#5 -715911183#0 -148061769 -4195580#2"/>
+        <ride busStop="-2385375149" lines="F:1" intended="pt_bus_F:1.5" depart="3286.00"/> <!-- Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd) -->
+        <walk edges="185104104 -4195580#2"/>
     </person>
     <person id="ped171" type="ped_pedestrian" depart="2889.95">
         <walk edges="-1185258340#0 29895520#2 29895520#3 -23101679#0 150041551#1 150041551#2 459339932#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
-        <ride busStop="-15624443" lines="X78:0" intended="pt_bus_X78:0.3" depart="3106.00"/> <!-- Ostbahnhof -->
+        <ride busStop="-15624443" lines="671:4" intended="pt_bus_671:4.3" depart="3077.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398 -1160713521 150041645#4 1162647991 -359458216"/>
     </person>
     <person id="ped175" type="ped_pedestrian" depart="2957.55">
@@ -661,26 +631,27 @@
     </person>
     <person id="ped181" type="ped_pedestrian" depart="3058.95">
         <walk edges="256105105#3 4213561#0 366601855 366601856 256102750#3 256105105#5 256105105#6 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="RH:1" intended="pt_bus_RH:1.4" depart="3164.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="671:4" intended="pt_bus_671:4.3" depart="3371.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="673:2" intended="pt_bus_673:2.5" depart="3179.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="255797401#0 255797401#1 182982119#0"/>
     </person>
     <person id="ped182" type="ped_pedestrian" depart="3075.85">
-        <walk edges="116556689#0 255729804#3 116556689#2 458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="X74:0" intended="pt_bus_X74:0.4" depart="3251.00"/> <!-- Ostbahnhof -->
+        <walk edges="116556689#0 255729804#3 255729804#0 83079953 519402126 59591191 378491236 150041636#0 150041636#1 150041636#2 519402125#0 255797401#1 255797401#0" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-15624443" lines="X78:0" intended="pt_bus_X78:0.4" depart="3546.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398"/>
     </person>
     <person id="ped183" type="ped_pedestrian" depart="3092.75">
-        <walk edges="-484022097 -4144040#3 -4144040#4 255729754#2 255729754#1 255729754#0 116556689#6 116556689#5 255797400" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="671:4" intended="pt_bus_671:4.3" depart="3371.00"/> <!-- Ostbahnhof -->
+        <walk edges="-484022097 -4144040#3 -4144040#4 255729754#2 255729754#1 255729754#0 116556689#6 1125742271 -150041716#4 -150041716#3 -150041716#2 -150041716#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-15624443" lines="671:4" intended="pt_bus_671:4.4" depart="3677.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398 -1160713521 -359458208#1 -359458208#0 359458208#0"/>
     </person>
     <person id="ped184" type="ped_pedestrian" depart="3109.65">
-        <walk edges="-1153038902#0 -1185258340#0 -29895520#1 -29895520#0 -29895519#2 -29895519#1 150041716#3 150041716#4 1125742271 116556689#6 255729754#0 255729754#1 255729754#2 700440148"/>
+        <walk edges="-1153038902#0 29895520#3 -23101679#0 150041551#1 -150041551#3 255797405#1 255797402#1 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="448433765" lines="672:1" intended="pt_bus_672:1.5" depart="3344.00"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#1 255729754#2 700440148"/>
     </person>
     <person id="ped185" type="ped_pedestrian" depart="3126.55">
-        <walk edges="23508141#0 715835444#1 148061769 715910743#2 116556689#5 255797400" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="X71:0" intended="pt_bus_X71:0.4" depart="3465.00"/> <!-- Ostbahnhof -->
+        <walk edges="23508141#0 -715835444#2 -1153038902#4 -1153038902#2 -1153038902#0 29895520#3 -23101679#0 150041551#1 150041551#2 459339932#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-15624443" lines="X78:0" intended="pt_bus_X78:0.4" depart="3546.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398 -1160713521 359458208#2 -884145210#1 -884145210#0 -359458219 359458219"/>
     </person>
     <person id="ped186" type="ped_pedestrian" depart="3143.45">
@@ -688,25 +659,25 @@
     </person>
     <person id="ped187" type="ped_pedestrian" depart="3160.35">
         <walk edges="-987109589#1 -987109589#0 -638694840#0 4213561#1 366601855 366601856 256102750#3 256105105#5 256105105#6 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X69:1" intended="pt_bus_X69:1.5" depart="3433.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="672:4" intended="pt_bus_672:4.3" depart="3545.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="X78:2" intended="pt_bus_X78:2.4" depart="3348.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="255797401#0 255797401#1 494297577#0 494297577#1 150041624#0 150041624#1 -150041624#1"/>
     </person>
     <person id="ped189" type="ped_pedestrian" depart="3194.15">
-        <walk edges="-715835444#1 148061769 715910743#2 116556689#5 255797400" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-15624443" lines="X71:0" intended="pt_bus_X71:0.4" depart="3465.00"/> <!-- Ostbahnhof -->
+        <walk edges="-715835444#1 -715835444#2 -1153038902#4 -1153038902#2 -1153038902#0 29895520#3 -23101679#0 150041551#1 150041551#2 459339932#1" busStop="-25599407"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-15624443" lines="X78:2" intended="pt_bus_X78:2.4" depart="3616.00"/> <!-- Ostbahnhof -->
         <walk edges="255797398 -1160713521 150041645#4 -359458213 53207954#0"/>
     </person>
     <person id="ped190" type="ped_pedestrian" depart="3211.05">
         <walk edges="359458219 -884145210#0 359458217#0 359458217#2" busStop="448433719"/> <!-- Ostbahnhof -->
-        <ride busStop="818872832" lines="673:4" intended="pt_bus_673:4.5" depart="3367.00"/> <!-- Elisabethenstift/Woog -->
-        <walk edges="150041594#0 255797402#1 255797405#1 150041716#0 150041716#1 150041716#2 150041716#3 150041716#4 255729778 715910744#0 694832101 694836606 694836603 -694836605"/>
+        <ride busStop="448433765" lines="X69:0" intended="pt_bus_X69:0.5" depart="3299.00"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#0 116556689#6 715910743#0 715910744#0 694832101 694836606 694836603 -694836605"/>
     </person>
     <person id="ped191" type="ped_pedestrian" depart="3227.95">
         <walk edges="-700440130#0 -700440130#1 -700440128 -4295817#0 -4295817#1 -4295817#3 150041551#1 23101679#0 -29895520#3 1153038902#0 1153038902#2 1185258342"/>
     </person>
     <person id="ped192" type="ped_pedestrian" depart="3244.85">
-        <walk edges="1185258337 1185258336#2 1185258339 -29895520#0 -29895519#2 -29895519#1 150041716#3 150041716#4 1125742271 116556689#5 255797400" busStop="3819369720"/> <!-- Jugendstilbad -->
+        <walk edges="1185258337 1185258338#0 -1153038902#0 29895520#3 -23101679#0 150041551#1 -150041551#3 255797405#1 255797402#1 150041594#0" busStop="818872832"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="448433765" lines="671:0" intended="pt_bus_671:0.5" depart="3483.00"/> <!-- Jugendstilbad -->
         <walk edges="1244524930 253230759#1 253230759#0 -378479743#0 -378479743#1 -378479743#2 -378479743#3 -23248109#1 -23248109#0 23248118 -689756683"/>
     </person>
     <person id="ped193" type="ped_pedestrian" depart="3261.75">
@@ -716,11 +687,10 @@
         <walk edges="715910744#1 4195580#2 4195580#1 4195580#0 -4144040#1 -4144040#2 484022097 4195610#2 13858853 47492539 13858854 -24507771 -1287285290#3 -218848625#1 -327864903#1 -327864903#0 150032770#0 150032770#1 150032770#2 150032770#5 218649572 319910922"/>
     </person>
     <person id="ped195" type="ped_pedestrian" depart="3295.55">
-        <walk edges="694832101 -715910744#0 715910743#0 116556689#5 255797400" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="1244524930 253230759#1 253230759#0 -378479743#0 -378479743#1 -378479743#2 -378479743#3 -23248109#1 -23248109#0 23248118 -689756683 -638694840#1 -638694840#0 4213561#1 4213561#0 4213557 256102749 256102750#1 256102746#1 256102746#0 256105105#9"/>
+        <walk edges="694832101 -715910744#0 715910743#0 116556689#6 255729754#0 255729754#1 255729754#2 700440148 -378479743#0 -378479743#1 -378479743#2 -378479743#3 -23248109#1 -23248109#0 23248118 -689756683 -638694840#1 -638694840#0 4213561#1 4213561#0 4213557 256102749 256102750#1 256102746#1 256102746#0 256105105#9"/>
     </person>
     <person id="ped196" type="ped_pedestrian" depart="3312.45">
-        <walk edges="-694836605 694836603 694836606 694832101 -715910744#0 715910743#0 116556689#5 255797400" busStop="3819369720"/> <!-- Jugendstilbad -->
+        <walk edges="-694836605 694836603 694836606 694832101 -715910744#0 715910743#0 116556689#6 255729754#0" busStop="448433765"/> <!-- Jugendstilbad -->
         <walk edges="1244524930 253230759#1 23599727#0"/>
     </person>
     <person id="ped198" type="ped_pedestrian" depart="3346.25">
@@ -739,18 +709,15 @@
     </person>
     <person id="ped202" type="ped_pedestrian" depart="3413.86">
         <walk edges="439271815#1 395456769#1 24509268 -253230762 -256102751#0 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="RH:1" intended="pt_bus_RH:1.5" depart="3764.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="671:4" intended="pt_bus_671:4.4" depart="3971.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="672:4" intended="pt_bus_672:4.4" depart="3758.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 150041551#2 150041551#1 23101679#0 -29895520#3 -29895520#2"/>
     </person>
     <person id="ped203" type="ped_pedestrian" depart="3430.76">
         <walk edges="-150041699#1 196656222#2 196656222#1"/>
     </person>
     <person id="ped204" type="ped_pedestrian" depart="3447.66">
-        <walk edges="28247400#0 -4209642 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="X78:0" intended="pt_bus_X78:0.4" depart="3634.00"/> <!-- Elisabethenstift/Woog -->
-        <walk edges="459339932#1 150041551#2 150041551#1 150041551#0 715835444#4 750168166#0 750168164 -750168164"/>
+        <walk edges="28247400#0 -4209642 1244524930" busStop="448433765"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#0 -255729776 715911184 -148061769 715835444#1 715835444#2 715835444#3 715835444#4 750168166#0 750168164 -750168164"/>
     </person>
     <person id="ped205" type="ped_pedestrian" depart="3464.56">
         <walk edges="465884703#1 -1244524929 253230759#1 253230759#0 -378479743#0 -378479743#1 -378479743#2 -378479743#3 -23248109#1 -23248109#0 23248118 -689756683 -638694840#1 -638694840#0 378543238 847071794 378543235#1"/>
@@ -760,27 +727,24 @@
     </person>
     <person id="ped207" type="ped_pedestrian" depart="3498.36">
         <walk edges="-366601856 256102750#3 256105105#5 256105105#6 56028463#1 -257510647#0" busStop="763225186"/> <!-- Schloss -->
-        <ride busStop="-243169788" lines="X74:0" intended="pt_bus_X74:0.5" depart="3694.00"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="671:4" intended="pt_bus_671:4.4" depart="3971.00"/> <!-- Elisabethenstift/Woog -->
+        <ride busStop="-25599407" lines="672:4" intended="pt_bus_672:4.4" depart="3758.00"/> <!-- Elisabethenstift/Woog -->
         <walk edges="459339932#1 150041551#2 150041551#1 23101679#0 -29895520#3 -29895520#2 -1185258340#0"/>
     </person>
     <person id="ped208" type="ped_pedestrian" depart="3515.26">
-        <walk edges="-465884704 -23599727#1 -23599727#0 253230759#1 1244524930" busStop="3819369720"/> <!-- Jugendstilbad -->
-        <walk edges="458284295" busStop="-243169788"/> <!-- Jugendstilbad -->
-        <ride busStop="-25599407" lines="671:4" intended="pt_bus_671:4.4" depart="3971.00"/> <!-- Elisabethenstift/Woog -->
-        <walk edges="459339932#1 150041551#2 150041551#1"/>
+        <walk edges="-465884704 -23599727#1 -23599727#0 253230759#1 1244524930" busStop="448433765"/> <!-- Jugendstilbad -->
+        <walk edges="255729754#0 116556689#6 1125742271 -150041716#4 -150041716#3 -150041716#2 -150041716#1 -150041716#0 150041551#2 150041551#1"/>
     </person>
     <person id="ped210" type="ped_pedestrian" depart="3549.06">
         <walk edges="1244524930 689912266 -624481020#4 -28247401 28247397#1"/>
     </person>
     <person id="ped211" type="ped_pedestrian" depart="3565.96">
         <walk edges="-359458216 1162647991 -150041645#4 359458217#2" busStop="448433719"/> <!-- Ostbahnhof -->
-        <ride busStop="448433765" lines="NHX:0" intended="pt_bus_NHX:0.5" depart="3634.00"/> <!-- Jugendstilbad -->
+        <ride busStop="448433765" lines="NHX:0" intended="pt_bus_NHX:0.5" depart="3633.00"/> <!-- Jugendstilbad -->
         <walk edges="255729754#1 255729754#2 4144040#4 4144040#3 484022097 4195610#2 13858853 47492539 13858854 -24507771 -1287285290#3 -218848625#1 -327864903#1 218848626#1 327864907"/>
     </person>
     <person id="ped212" type="ped_pedestrian" depart="3582.86">
         <walk edges="150041645#4 359458217#2" busStop="448433719"/> <!-- Ostbahnhof -->
-        <ride busStop="448433765" lines="NHX:0" intended="pt_bus_NHX:0.5" depart="3634.00"/> <!-- Jugendstilbad -->
+        <ride busStop="448433765" lines="NHX:0" intended="pt_bus_NHX:0.5" depart="3633.00"/> <!-- Jugendstilbad -->
         <walk edges="1244524930 253230759#1 23599727#0 23599727#1 -465884704"/>
     </person>
     <person id="ped213" type="ped_pedestrian" depart="3599.76">

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-18 12:03:34.849184 by ptlines2flows.py UNKNOWN
+<configuration>
+    <net-file value="osm.net.xml.gz"/>
+    <ptlines-file value="osm_ptlines.xml"/>
+    <ptstops-file value="osm_stops.add.xml"/>
+    <output-file value="osm_pt.rou.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_RH:0" edges="1185215707 53207959#0 53207959#1 53207959#3 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="818872832" duration="20" until="130.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="206.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_F:0" edges="51873805 60263960 116556688 43135644#0 715913363#2 1290085525#0 1290085525#1 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="2385375149" duration="20" until="34.0"/> <!-- Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd) -->
+    </route>
+    <route id="pt_bus_WE1:0" edges="1265069359" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+    </route>
+    <route id="pt_bus_WE2:0" edges="1265069359" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+    </route>
+    <route id="pt_bus_GB:0" edges="1185215707 53207959#0 53207959#1 53207959#3 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="818872832" duration="20" until="158.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="329.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_MO1:0" edges="1185215707 53207959#0 53207959#1 53207959#3 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="818872832" duration="20" until="224.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="361.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_F:1" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2  116556686#1 -60263960 -51873805" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-2385375149" duration="20" until="195.0"/> <!-- Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd) -->
+    </route>
+    <route id="pt_bus_672:2" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="271.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="367.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_673:0" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="33.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="250.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="384.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_672:0" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="46.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="267.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="463.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_672:1" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="78.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="317.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="492.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_673:2" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="253.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="385.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_K:0" edges="1265069359" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+    </route>
+    <route id="pt_bus_673:3" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="243.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="355.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_H:0" edges="1265069359" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+    </route>
+    <route id="pt_bus_672:3" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="92.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="331.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="505.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_673:1" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134 715913363#2 1290085525#0 1290085525#1 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="113.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="375.0"/> <!-- Elisabethenstift/Woog -->
+    </route>
+    <route id="pt_bus_671:0" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="89.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="351.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="499.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_671:1" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="122.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="405.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="532.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_X69:1" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+        <stop busStop="-15624443" duration="20" until="328.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_FM:0" edges="51873805 60263960 116556688 43135644#0 715913363#2 1290085525#0 1290085525#1 700440148 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="2385375149" duration="20" until="33.0"/> <!-- Pützerstraße/Mathildenhöhe (Bushalt Richtung Süd) -->
+    </route>
+    <route id="pt_bus_671:2" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="202.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="326.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_673:4" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="46.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="265.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="453.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_L:0" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440131 506015829#1   214812788#2 73372559" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+    </route>
+    <route id="pt_bus_MO1:1" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -150041565" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="276.0"/> <!-- Elisabethenstift/Woog -->
+    </route>
+    <route id="pt_bus_X69:0" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 700236092#0 700236092#1 700236093 44973978 506013711#1 35574708#1" >
+        <stop busStop="448433719" duration="20" until="134.0"/> <!-- Ostbahnhof -->
+        <stop busStop="448433765" duration="20" until="543.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_X78:1" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="76.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="280.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="450.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_X78:3" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="96.0"/> <!-- Ostbahnhof -->
+        <stop busStop="448433765" duration="20" until="469.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_X78:5" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="117.0"/> <!-- Ostbahnhof -->
+        <stop busStop="448433765" duration="20" until="489.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_X78:7" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="137.0"/> <!-- Ostbahnhof -->
+        <stop busStop="448433765" duration="20" until="536.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_671:3" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="147.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="295.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="547.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_RH:1" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -150041565" >
+        <stop busStop="763225186" duration="20" until="33.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="245.0"/> <!-- Elisabethenstift/Woog -->
+    </route>
+    <route id="pt_bus_X74:0" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-15624443" duration="20" until="368.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_X71:0" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-15624443" duration="20" until="301.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_NHX:0" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="116.0"/> <!-- Ostbahnhof -->
+        <stop busStop="818872832" duration="20" until="280.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="448433765" duration="20" until="514.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_X71:1" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="98.0"/> <!-- Ostbahnhof -->
+        <stop busStop="448433765" duration="20" until="495.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_GB:1" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -150041565" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="300.0"/> <!-- Elisabethenstift/Woog -->
+    </route>
+    <route id="pt_bus_X78:4" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+        <stop busStop="-15624443" duration="20" until="194.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_X74:1" edges="150041578 38115189 359458217#0 359458217#2 38115188 150041593 196656222#0 196656222#1 196656222#2 700440130#0 700440130#1 700440128 700440129 1290085526#0 150041594#0 56163443#1 700440137 700440134  214846345#2 214846345#3 253272005 378479743#0 378479743#1 378479743#2 378479743#3 378479743#4 378479743#5 378479743#6 -1265069358#1 -1265069360#0" >
+        <stop busStop="448433719" duration="20" until="128.0"/> <!-- Ostbahnhof -->
+        <stop busStop="448433765" duration="20" until="568.0"/> <!-- Jugendstilbad -->
+    </route>
+    <route id="pt_bus_X78:0" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="271.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="378.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_K:1" edges="1265069359" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+    </route>
+    <route id="pt_bus_FM:1" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2  116556686#1 -60263960 -51873805" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+    </route>
+    <route id="pt_bus_X78:2" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="302.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="415.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_X78:6" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-15624443" duration="20" until="347.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_678:0" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 700440131 506015829#1   214812788#2 73372559" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+    </route>
+    <route id="pt_bus_671:4" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="177.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="309.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_671:5" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="34.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="256.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="336.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_672:4" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="35.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="200.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="373.0"/> <!-- Ostbahnhof -->
+    </route>
+    <route id="pt_bus_NHX:1" edges="1265069359 1265069358#1 -378479743#6 -378479743#5 -378479743#4 -378479743#3 -378479743#2 -378479743#1 -378479743#0 -253272005 -214846345#3 -214846345#2   -38115197#0 -700440136 -56163443#3 -150041594#1 -1290085526#1 -700440129 -700440128 -700440130#1 -700440130#0 -196656222#2 -196656222#1 -196656222#0 -53207957 150041579#0 150041579#2" >
+        <stop busStop="763225186" duration="20" until="36.0"/> <!-- Schloss -->
+        <stop busStop="-25599407" duration="20" until="288.0"/> <!-- Elisabethenstift/Woog -->
+        <stop busStop="-15624443" duration="20" until="407.0"/> <!-- Ostbahnhof -->
+    </route>
+    <flow id="pt_bus_RH:0" type="pt_bus" route="pt_bus_RH:0" begin="3.0" end="3603.0" period="600" line="RH:0" >
+        <param key="name" value="Bus RH: Ueberau =&gt; Darmstadt Hbf"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_F:0" type="pt_bus" route="pt_bus_F:0" begin="119.0" end="3719.0" period="600" line="F:0" >
+        <param key="name" value="Bus F: Darmstadt Oberwaldhaus =&gt; Darmstadt Haasstraße"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_WE1:0" type="pt_bus" route="pt_bus_WE1:0" begin="320.0" end="3920.0" period="600" line="WE1:0" >
+        <param key="name" value="Bus WE1: Erzhausen =&gt; Darmstadt Schloß"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_WE2:0" type="pt_bus" route="pt_bus_WE2:0" begin="360.0" end="3960.0" period="600" line="WE2:0" >
+        <param key="name" value="Bus WE2: Worfelden =&gt; Darmstadt Schloß"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_GB:0" type="pt_bus" route="pt_bus_GB:0" begin="15.0" end="3615.0" period="600" line="GB:0" >
+        <param key="name" value="Bus GB: Groß-Bieberau =&gt; Darmstadt Hbf"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_MO1:0" type="pt_bus" route="pt_bus_MO1:0" begin="21.0" end="3621.0" period="600" line="MO1:0" >
+        <param key="name" value="Bus MO1: Rohrbach =&gt; Darmstadt Hbf"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_F:1" type="pt_bus" route="pt_bus_F:1" begin="252.0" end="3852.0" period="600" line="F:1" >
+        <param key="name" value="Bus F: Darmstadt Haasstraße =&gt; Darmstadt Oberwaldhaus"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_672:2" type="pt_bus" route="pt_bus_672:2" begin="47.0" end="3647.0" period="600" line="672:2" >
+        <param key="name" value="Bus 672: Darmstadt =&gt; Dieburg (Schülerfahrt morgens)"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_673:0" type="pt_bus" route="pt_bus_673:0" begin="108.0" end="3708.0" period="600" line="673:0" >
+        <param key="name" value="Bus 673: Darmstadt =&gt; Gundernhausen Stetteritz (über Roßdorf Justin-Wagner-Schule)"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_672:0" type="pt_bus" route="pt_bus_672:0" begin="17.0" end="3617.0" period="600" line="672:0" >
+        <param key="name" value="Bus 672: Dieburg =&gt; Darmstadt (Schülerfahrt nachmittags)"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_672:1" type="pt_bus" route="pt_bus_672:1" begin="27.0" end="3627.0" period="600" line="672:1" >
+        <param key="name" value="Bus 672: Dieburg =&gt; Darmstadt (Schülerfahrt morgens)"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_673:2" type="pt_bus" route="pt_bus_673:2" begin="145.0" end="3745.0" period="600" line="673:2" >
+        <param key="name" value="Bus 673: Darmstadt =&gt; Gundernhausen Hauptstraße"/>
+        <param key="completeness" value="0.15"/>
+    </flow>
+    <flow id="pt_bus_K:0" type="pt_bus" route="pt_bus_K:0" begin="547.0" end="4147.0" period="600" line="K:0" >
+        <param key="name" value="Bus K: Anne-Frank-Straße =&gt; Alfred-Messel-Weg"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_673:3" type="pt_bus" route="pt_bus_673:3" begin="214.0" end="3814.0" period="600" line="673:3" >
+        <param key="name" value="Bus 673: Darmstadt =&gt; Gundernhausen Stetteritz"/>
+        <param key="completeness" value="0.13"/>
+    </flow>
+    <flow id="pt_bus_H:0" type="pt_bus" route="pt_bus_H:0" begin="586.0" end="4186.0" period="600" line="H:0" >
+        <param key="name" value="Bus H: Anne-Frank-Straße =&gt; Kesselhutweg"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_672:3" type="pt_bus" route="pt_bus_672:3" begin="52.0" end="3652.0" period="600" line="672:3" >
+        <param key="name" value="Bus 672: Dieburg =&gt; Darmstadt"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_673:1" type="pt_bus" route="pt_bus_673:1" begin="69.0" end="3669.0" period="600" line="673:1" >
+        <param key="name" value="Bus 673: Gundernhausen Stetteritz =&gt; Darmstadt (über Hochstraße)"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_671:0" type="pt_bus" route="pt_bus_671:0" begin="132.0" end="3732.0" period="600" line="671:0" >
+        <param key="name" value="Bus 671: Wiebelsbach =&gt; Darmstadt (über Dieburg Hochschule und Dieburg Bahnhof)"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_671:1" type="pt_bus" route="pt_bus_671:1" begin="138.0" end="3738.0" period="600" line="671:1" >
+        <param key="name" value="Bus 671: Groß-Umstadt =&gt; Darmstadt (nicht über Dieburg Hochschule)"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_X69:1" type="pt_bus" route="pt_bus_X69:1" begin="398.0" end="3998.0" period="600" line="X69:1" >
+        <param key="name" value="Bus X69: Darmstadt =&gt; Reichelsheim"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_FM:0" type="pt_bus" route="pt_bus_FM:0" begin="483.0" end="4083.0" period="600" line="FM:0" >
+        <param key="name" value="Bus FM: Urberach =&gt; Darmstadt"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_671:2" type="pt_bus" route="pt_bus_671:2" begin="439.0" end="4039.0" period="600" line="671:2" >
+        <param key="name" value="Bus 671: Darmstadt =&gt; Schaafheim (Nachtverkehr)"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_673:4" type="pt_bus" route="pt_bus_673:4" begin="321.0" end="3921.0" period="600" line="673:4" >
+        <param key="name" value="Bus 673: Gundernhausen Stetteritz =&gt; Darmstadt"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_L:0" type="pt_bus" route="pt_bus_L:0" begin="625.0" end="4225.0" period="600" line="L:0" >
+        <param key="name" value="Bus L: Heinheimer Straße =&gt; TU-Lichtwiese/Campus"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_MO1:1" type="pt_bus" route="pt_bus_MO1:1" begin="479.0" end="4079.0" period="600" line="MO1:1" >
+        <param key="name" value="Bus MO1: Darmstadt Hbf =&gt; Rohrbach"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_X69:0" type="pt_bus" route="pt_bus_X69:0" begin="165.0" end="3765.0" period="600" line="X69:0" >
+        <param key="name" value="Bus X69: Reichelsheim =&gt; Darmstadt"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_X78:1" type="pt_bus" route="pt_bus_X78:1" begin="362.0" end="3962.0" period="600" line="X78:1" >
+        <param key="name" value="Bus X78 (Hauptroute): Groß-Zimmern Friedensschule =&gt; Darmstadt Luisenplatz"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_X78:3" type="pt_bus" route="pt_bus_X78:3" begin="381.0" end="3981.0" period="600" line="X78:3" >
+        <param key="name" value="Bus X78 (Var. A): Groß-Zimmern Bertha-von-Suttner-Straße =&gt; Darmstadt Luisenplatz"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_bus_X78:5" type="pt_bus" route="pt_bus_X78:5" begin="400.0" end="4000.0" period="600" line="X78:5" >
+        <param key="name" value="Bus X78 (Var. B): Groß-Umstadt-Semd Schule =&gt; Darmstadt Hbf"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_X78:7" type="pt_bus" route="pt_bus_X78:7" begin="418.0" end="4018.0" period="600" line="X78:7" >
+        <param key="name" value="Bus X78 (Var. C): Groß-Zimmern-Klein-Zimmern Markstraße =&gt; Darmstadt Hbf"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_671:3" type="pt_bus" route="pt_bus_671:3" begin="447.0" end="4047.0" period="600" line="671:3" >
+        <param key="name" value="Bus 671: Groß-Umstadt =&gt; Darmstadt (über Dieburg Hochschule)"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_RH:1" type="pt_bus" route="pt_bus_RH:1" begin="701.0" end="4301.0" period="600" line="RH:1" >
+        <param key="name" value="Bus RH: Darmstadt Hbf =&gt; Ueberau"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_X74:0" type="pt_bus" route="pt_bus_X74:0" begin="663.0" end="4263.0" period="600" line="X74:0" >
+        <param key="name" value="Bus X74: Darmstadt =&gt; Ober-Roden"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_bus_X71:0" type="pt_bus" route="pt_bus_X71:0" begin="769.0" end="4369.0" period="600" line="X71:0" >
+        <param key="name" value="Bus X71: Darmstadt =&gt; Wiebelsbach"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_NHX:0" type="pt_bus" route="pt_bus_NHX:0" begin="517.0" end="4117.0" period="600" line="NHX:0" >
+        <param key="name" value="Bus NHX: Niedernhausen =&gt; Darmstadt Mathildenplatz"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_X71:1" type="pt_bus" route="pt_bus_X71:1" begin="574.0" end="4174.0" period="600" line="X71:1" >
+        <param key="name" value="Bus X71: Wiebelsbach = Darmstadt"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_GB:1" type="pt_bus" route="pt_bus_GB:1" begin="807.0" end="4407.0" period="600" line="GB:1" >
+        <param key="name" value="Bus GB: Darmstadt Hbf =&gt; Groß-Bieberau"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_X78:4" type="pt_bus" route="pt_bus_X78:4" begin="983.0" end="4583.0" period="600" line="X78:4" >
+        <param key="name" value="Bus X78 (Var. B): Darmstadt Hbf =&gt; Groß-Umstadt-Semd Schule"/>
+        <param key="completeness" value="0.14"/>
+    </flow>
+    <flow id="pt_bus_X74:1" type="pt_bus" route="pt_bus_X74:1" begin="583.0" end="4183.0" period="600" line="X74:1" >
+        <param key="name" value="Bus X74: Ober-Roden =&gt; Darmstadt"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_X78:0" type="pt_bus" route="pt_bus_X78:0" begin="875.0" end="4475.0" period="600" line="X78:0" >
+        <param key="name" value="Bus X78 (Hauptroute): Darmstadt Luisenplatz =&gt; Groß-Zimmern Friedensschule"/>
+        <param key="completeness" value="0.33"/>
+    </flow>
+    <flow id="pt_bus_K:1" type="pt_bus" route="pt_bus_K:1" begin="1245.0" end="4845.0" period="600" line="K:1" >
+        <param key="name" value="Bus K: Kleyerstraße =&gt; Alfred-Messel-Weg"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_FM:1" type="pt_bus" route="pt_bus_FM:1" begin="1207.0" end="4807.0" period="600" line="FM:1" >
+        <param key="name" value="Bus FM: Darmstadt =&gt; Urberach"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_X78:2" type="pt_bus" route="pt_bus_X78:2" begin="914.0" end="4514.0" period="600" line="X78:2" >
+        <param key="name" value="Bus X78 (Var. A): Darmstadt Luisenplatz =&gt; Groß-Zimmern Bertha-von-Suttner-Straße"/>
+        <param key="completeness" value="0.31"/>
+    </flow>
+    <flow id="pt_bus_X78:6" type="pt_bus" route="pt_bus_X78:6" begin="1022.0" end="4622.0" period="600" line="X78:6" >
+        <param key="name" value="Bus X78 (Var. C): Darmstadt Hbf =&gt; Groß-Zimmern-Klein-Zimmern Markstraße"/>
+        <param key="completeness" value="0.16"/>
+    </flow>
+    <flow id="pt_bus_678:0" type="pt_bus" route="pt_bus_678:0" begin="1284.0" end="4884.0" period="600" line="678:0" >
+        <param key="name" value="Bus 678: Darmstadt =&gt; Groß-Umstadt"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_671:4" type="pt_bus" route="pt_bus_671:4" begin="1100.0" end="4700.0" period="600" line="671:4" >
+        <param key="name" value="Bus 671: Darmstadt =&gt; Groß-Umstadt (über Dieburg Hochschule Süd)"/>
+        <param key="completeness" value="0.17"/>
+    </flow>
+    <flow id="pt_bus_671:5" type="pt_bus" route="pt_bus_671:5" begin="1138.0" end="4738.0" period="600" line="671:5" >
+        <param key="name" value="Bus 671: Darmstadt =&gt; Groß-Umstadt (nicht über Dieburg Hochschule Süd)"/>
+        <param key="completeness" value="0.21"/>
+    </flow>
+    <flow id="pt_bus_672:4" type="pt_bus" route="pt_bus_672:4" begin="1323.0" end="4923.0" period="600" line="672:4" >
+        <param key="name" value="Bus 672: Darmstadt =&gt; Dieburg"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_NHX:1" type="pt_bus" route="pt_bus_NHX:1" begin="1363.0" end="4963.0" period="600" line="NHX:1" >
+        <param key="name" value="Bus NHX: Darmstadt Mathildenplatz =&gt; Niedernhausen"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+</routes>

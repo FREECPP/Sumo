@@ -6,8 +6,8 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="A034_steets_matching_crossings_matching.net.xml"/>
-        <route-files value="osm_pt.rou.xml,osm.bicycle.trips.xml,osm.bus.trips.xml,osm.motorcycle.trips.xml,osm.passenger.trips.xml,updated_pedestrian_routes.rou.xml,osm.tram.trips.xml,osm.truck.trips.xml"/>
+        <net-file value="241018_A034.net.xml"/>
+        <route-files value="random_bike.trips.xml,random_bus.trips.xml,random_car.trips.xml,random_pedestrians.rou.xml"/>
         <additional-files value="osm.poly.xml.gz,osm_stops.add.xml"/>
     </input>
 

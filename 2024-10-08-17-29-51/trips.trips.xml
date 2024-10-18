@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-10-17 18:37:52.733121 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ UNKNOWN
+<!-- generated on 2024-10-18 12:03:34.621747 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ UNKNOWN
 <configuration>
     <net-file value="osm.net.xml.gz"/>
     <ptlines-file value="osm_ptlines.xml"/>
@@ -52,7 +52,6 @@
     </trip>
     <trip id="5_bus_672:2" type="pt_bus" depart="47.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
@@ -63,7 +62,6 @@
     </trip>
     <trip id="7_bus_673:0" type="pt_bus" depart="55.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
@@ -73,13 +71,11 @@
     </trip>
     <trip id="9_bus_673:2" type="pt_bus" depart="60.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
     <trip id="10_bus_673:3" type="pt_bus" depart="93.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
@@ -112,18 +108,15 @@
     </trip>
     <trip id="18_bus_X69:1" type="pt_bus" depart="166.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
     <trip id="19_bus_671:2" type="pt_bus" depart="173.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
     <trip id="20_bus_MO1:1" type="pt_bus" depart="201.0" departLane="best" from="1265069359" to="-150041565">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
     </trip>
     <trip id="21_bus_K:0" type="pt_bus" depart="204.0" departLane="best" from="1265069359" to="1265069359">
@@ -137,7 +130,6 @@
     </trip>
     <trip id="24_bus_X74:0" type="pt_bus" depart="303.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
     <trip id="25_bus_673:4" type="pt_bus" depart="321.0" departLane="best" from="150041578" to="-1265069360#0">
@@ -147,22 +139,18 @@
     </trip>
     <trip id="26_bus_RH:1" type="pt_bus" depart="326.0" departLane="best" from="1265069359" to="-150041565">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
     </trip>
     <trip id="27_bus_X71:0" type="pt_bus" depart="331.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
     <trip id="28_bus_GB:1" type="pt_bus" depart="346.0" departLane="best" from="1265069359" to="-150041565">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
     </trip>
     <trip id="29_bus_X78:0" type="pt_bus" depart="353.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
@@ -173,7 +161,6 @@
     </trip>
     <trip id="31_bus_X78:2" type="pt_bus" depart="371.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
@@ -183,7 +170,6 @@
     </trip>
     <trip id="33_bus_X78:4" type="pt_bus" depart="383.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
     <trip id="34_bus_X78:5" type="pt_bus" depart="389.0" departLane="best" from="150041578" to="-1265069360#0">
@@ -192,7 +178,6 @@
     </trip>
     <trip id="35_bus_X78:6" type="pt_bus" depart="406.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
     <trip id="36_bus_X78:7" type="pt_bus" depart="418.0" departLane="best" from="150041578" to="-1265069360#0">
@@ -206,13 +191,11 @@
     </trip>
     <trip id="38_bus_671:4" type="pt_bus" depart="437.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
     <trip id="39_bus_671:5" type="pt_bus" depart="441.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
@@ -230,7 +213,6 @@
     </trip>
     <trip id="44_bus_672:4" type="pt_bus" depart="508.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
@@ -241,7 +223,6 @@
     </trip>
     <trip id="46_bus_NHX:1" type="pt_bus" depart="535.0" departLane="best" from="1265069359" to="150041579#2">
         <stop busStop="763225186" duration="30"/>  <!-- Schloss -->
-        <stop busStop="-243169788" duration="30"/>  <!-- Jugendstilbad -->
         <stop busStop="-25599407" duration="30"/>  <!-- Elisabethenstift/Woog -->
         <stop busStop="-15624443" duration="30"/>  <!-- Ostbahnhof -->
     </trip>
