@@ -8,7 +8,7 @@
     <input>
         <net-file value="241018_A034.net.xml"/>
         <route-files value="/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241022/241022_random_route.rou.xml, /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241022/241022_random_route_bicycles.rou.xml"/>
-        <additional-files value="osm.poly.xml.gz,osm_stops.add.xml"/>
+        <additional-files value="osm.poly.xml.gz,osm_stops.add.xml,/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241022/241022_induction_loops.add.xml"/>
     </input>
 
     <processing>
