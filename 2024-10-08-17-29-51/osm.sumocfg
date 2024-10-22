@@ -7,7 +7,7 @@
 
     <input>
         <net-file value="241018_A034.net.xml"/>
-        <route-files value="random_bike.trips.xml,random_bus.trips.xml,random_car.trips.xml,random_pedestrians.rou.xml"/>
+        <route-files value="/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241021/241021_random_route.rou.xml"/>
         <additional-files value="osm.poly.xml.gz,osm_stops.add.xml"/>
     </input>
 
