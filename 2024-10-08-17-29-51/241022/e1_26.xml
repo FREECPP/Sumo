@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-10-26 10:34:49 by Eclipse SUMO GUI Version 1.20.0
+<!-- generated on 2024-10-31 12:53:57 by Eclipse SUMO GUI Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241026/241026_A035.net.xml"/>
-        <route-files value="/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241026/241026_2_random_route_bicycles.rou.xml,             /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241026/241026_2_random_route_pedestrian.rou.xml,             /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241026/241026_2_random_route_cars.rou.xml"/>
-        <additional-files value="osm.poly.xml.gz,osm_stops.add.xml,/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241022/241022_induction_loops.add.xml"/>
+        <net-file value="/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241031/241031_A131.net.xml"/>
+        <route-files value="/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241031/241031_random_route_bus.rou.xml,             /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241031/241031_random_route_bicycles.rou.xml,             /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241031/241031_random_route_cars.rou.xml,             /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241031/241031_random_route_pedestrian.rou.xml"/>
+        <additional-files value="osm.poly.xml.gz,             /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241022/241022_induction_loops.add.xml,             /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241031/bus_stops.add.xml"/>
     </input>
 
     <processing>
@@ -33,21 +33,4 @@
 -->
 
 <detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
-    <interval begin="0.00" end="300.00" id="e1_26" nVehContrib="5" flow="60.00" occupancy="0.88" speed="9.78" harmonicMeanSpeed="7.44" length="4.32" nVehEntered="5"/>
-    <interval begin="300.00" end="600.00" id="e1_26" nVehContrib="17" flow="204.00" occupancy="2.78" speed="7.01" harmonicMeanSpeed="6.00" length="3.20" nVehEntered="17"/>
-    <interval begin="600.00" end="900.00" id="e1_26" nVehContrib="14" flow="168.00" occupancy="2.54" speed="6.12" harmonicMeanSpeed="5.43" length="3.06" nVehEntered="14"/>
-    <interval begin="900.00" end="1200.00" id="e1_26" nVehContrib="17" flow="204.00" occupancy="2.76" speed="5.65" harmonicMeanSpeed="5.04" length="2.60" nVehEntered="17"/>
-    <interval begin="1200.00" end="1500.00" id="e1_26" nVehContrib="15" flow="180.00" occupancy="2.60" speed="5.70" harmonicMeanSpeed="5.01" length="2.73" nVehEntered="15"/>
-    <interval begin="1500.00" end="1800.00" id="e1_26" nVehContrib="19" flow="228.00" occupancy="3.64" speed="5.66" harmonicMeanSpeed="5.18" length="3.03" nVehEntered="19"/>
-    <interval begin="1800.00" end="2100.00" id="e1_26" nVehContrib="17" flow="204.00" occupancy="2.24" speed="5.71" harmonicMeanSpeed="5.33" length="2.20" nVehEntered="17"/>
-    <interval begin="2100.00" end="2400.00" id="e1_26" nVehContrib="16" flow="192.00" occupancy="2.72" speed="5.17" harmonicMeanSpeed="5.09" length="2.66" nVehEntered="16"/>
-    <interval begin="2400.00" end="2700.00" id="e1_26" nVehContrib="11" flow="132.00" occupancy="1.72" speed="5.30" harmonicMeanSpeed="5.26" length="2.53" nVehEntered="11"/>
-    <interval begin="2700.00" end="3000.00" id="e1_26" nVehContrib="11" flow="132.00" occupancy="2.03" speed="6.19" harmonicMeanSpeed="5.44" length="3.15" nVehEntered="11"/>
-    <interval begin="3000.00" end="3300.00" id="e1_26" nVehContrib="11" flow="132.00" occupancy="1.99" speed="6.23" harmonicMeanSpeed="5.45" length="3.15" nVehEntered="11"/>
-    <interval begin="3300.00" end="3600.00" id="e1_26" nVehContrib="19" flow="228.00" occupancy="2.72" speed="5.68" harmonicMeanSpeed="5.11" length="2.32" nVehEntered="19"/>
-    <interval begin="3600.00" end="3900.00" id="e1_26" nVehContrib="13" flow="156.00" occupancy="2.16" speed="6.68" harmonicMeanSpeed="5.91" length="3.17" nVehEntered="13"/>
-    <interval begin="3900.00" end="4200.00" id="e1_26" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
-    <interval begin="4200.00" end="4500.00" id="e1_26" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
-    <interval begin="4500.00" end="4800.00" id="e1_26" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
-    <interval begin="4800.00" end="4895.00" id="e1_26" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" harmonicMeanSpeed="-1.00" length="-1.00" nVehEntered="0"/>
 </detector>
