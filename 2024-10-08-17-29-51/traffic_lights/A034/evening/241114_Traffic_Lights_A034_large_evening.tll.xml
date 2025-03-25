@@ -1,0 +1,22 @@
+<additionals>
+        <tlLogic id="cluster761976295_clusterJ1_cluster_10574544873_10574544874_11752294598_11752294599_#8more" type="static" programID="0" offset="0">
+            <phase duration="19" state="GrrGrrGGG"/> <!--19-->
+            <phase duration="2" state="GrryrrGGG"/> <!--21-->
+            <phase duration="1" state="GrryGrGGG"/> <!--22-->
+            <phase duration="1" state="yrryGrGGG"/> <!--23-->
+            <phase duration="1" state="yrrrGrGGG"/> <!--24-->
+            <phase duration="1" state="yrrrGrrGG"/> <!--25-->
+            <phase duration="2" state="rrrrGrrGr"/> <!--27-->
+            <phase duration="1" state="rrrrGGrGr"/> <!--28-->
+            <phase duration="1" state="rrrrrGrGr"/> <!--29-->
+            <phase duration="1" state="ryyrrGrGr"/> <!--30-->
+            <phase duration="29" state="rGGrrGrGr"/> <!--59-->
+            <phase duration="3" state="ryyrrrrGr"/> <!--62-->
+            <phase duration="2" state="rrrrrrrGr"/> <!--64-->
+            <phase duration="2" state="rrrrrrGGr"/> <!--66-->
+            <phase duration="1" state="rrrrrrGGG"/> <!--67-->
+            <phase duration="1" state="rrrGrrGGG"/> <!--68-->
+            <phase duration="1" state="yrrGrrGGG"/> <!--69-->
+            <phase duration="21" state="GrrGrrGGG"/> <!--90-->
+        </tlLogic>  
+<additionals/>

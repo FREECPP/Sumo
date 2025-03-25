@@ -246,9 +246,9 @@ class DetectorReader(handler.ContentHandler):
 
     def findTimes(self, flowFile, tMin, tMax, det="Detector", time="Time"):
         timeIdx = 1
-        with open(flowFile) as f:
-            for fl in f:
-                if ';' not in fl:
+        with open(flowFile) as f: # flowfile im lesemodus öffnen
+            for fl in f: # jede zeile der Datei wird durchlaufen
+                if ';' not in fl: # Falls die Zeile keine Semikolons enthält wird sie ignoriert => wenn die gesammte datei keine Semikolons enthält, ist sie unbrauchbar
                     continue
                 flowDef = [e.strip() for e in fl.split(';')]
                 if det in flowDef:

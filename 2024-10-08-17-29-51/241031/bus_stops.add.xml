@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-10-31 12:11:34 by Eclipse SUMO netedit Version 1.20.0
+<!-- generated on 2024-11-04 13:13:57 by Eclipse SUMO netedit Version 1.20.0
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <!-- StoppingPlaces -->
     <busStop id="bs_0" lane="-196656222#0_0" startPos="60.08" endPos="70.08"/>
-    <busStop id="bs_1" name="Ostbahnhof Steig 16" lane="359458217#2_1" startPos="7.06" endPos="17.06" friendlyPos="true"/>
     <busStop id="bs_2" name="Woog" lane="150041594#0_1" startPos="29.10" endPos="39.10"/>
     <busStop id="bs_3" name="Woog" lane="-56163443#3_0" startPos="142.07" endPos="152.07"/>
     <busStop id="bs_4" name="Jugendstilbad" lane="214846345#2_0" startPos="17.91" endPos="27.91"/>
     <busStop id="bs_5" name="Jugendstilbad" lane="-214846345#2_0" startPos="39.05" endPos="49.05"/>
-    <busStop id="bs_6" name="Schloss" lane="-1265069360#0_0" startPos="21.24"/>
-    <busStop id="bs_7" name="Schloss" lane="60967374_0" startPos="6.77" endPos="16.77"/>
+    <busStop id="bs_6" name="Schloss" lane="-1265069360#0_0" startPos="19.03" endPos="29.03"/>
 </additional>

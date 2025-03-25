@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-06 18:28:10 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="A034_D41" name="D41" lane="700236092#1_2" pos="11.48" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A034_D42" name="D42" lane="700236092#1_3" pos="11.01" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A034_D43" name="D43" lane="378479743#6_2" pos="25.41" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A034_D44" name="D44" lane="378479743#6_3" pos="24.79" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A034_D81" name="D81" lane="492925919_0" pos="7.50" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A034_D82" name="D82" lane="492925919_1" pos="7.26" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A034_D83" name="D83" lane="395456769#1_2" pos="15.34" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A034_D84" name="D84" lane="395456769#1_3" pos="15.53" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A034_DK51" name="DK51" lane="-1265069358#1_0" pos="3.40" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A035_D11" name="D11" lane="150041551#2_2" pos="39.03" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A035_D21" name="D21" lane="150041594#0_1" pos="7.82" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A035_D31" name="D31" lane="-182982119#1_2" pos="16.36" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A035_D41" name="D41" lane="-56163443#3_0" pos="138.60" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D11" name="D11" lane="43135644#0_0" pos="38.47" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D12" name="D12" lane="43135644#0_1" pos="37.18" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D13" name="D13" lane="43135644#0_2" pos="36.75" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D14" name="D14" lane="43135644#0_3" pos="37.57" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D21" name="D21" lane="700440134_0" pos="29.73" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D22" name="D22" lane="700440134_1" pos="29.49" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D23" name="D23" lane="700440134_2" pos="29.62" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D24" name="D24" lane="700440134_3" pos="29.62" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D31" name="D31" lane="214812786_0" pos="60.83" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D32" name="D32" lane="214812786_1" pos="58.80" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D33" name="D33" lane="214812786_2" pos="57.69" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D34" name="D34" lane="214812786_3" pos="59.45" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D40" name="D40" lane="E3_0" pos="8.63" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D41" name="D41" lane="E2_0" pos="10.00" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D42" name="D42" lane="E2_2" pos="8.64" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A036_D43" name="D43" lane="E2_3" pos="9.64" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A131_D1" name="D1" lane="150041580_0" pos="15.14" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A131_D12" name="D12" lane="359458217#0_1" pos="19.06" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A131_D2" name="D2" lane="-53207957_0" pos="13.40" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A141_D11_1" name="D11.1" lane="150041565_2" pos="45.76" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+    <inductionLoop id="A141_D11_2" name="D11.2" lane="150041565_1" pos="45.91" period="1600.00" file="vehicle_counts.xml" friendlyPos="1"/>
+</additional>

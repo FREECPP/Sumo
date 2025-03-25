@@ -1,0 +1,198 @@
+A034_Small_Morgens
+<tlLogic id="joinedS_540369245_cluster_10574544873_10574544874_11752294598_11752294599_#8more" type="static" programID="0" offset="0">
+        <phase duration="37" state="rG"/>
+        <phase duration="8"  state="rr"/>
+        <phase duration="42" state="Gr"/>
+        <phase duration="3"  state="yr"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="ring1" value="0,2,0,4"/>
+        <param key="ring2" value="0,6,0,8"/>
+    </tlLogic>
+
+
+    state = " FV4 FG34"
+
+    <phase duration="14" state="Gr"/>
+    <phase duration="3" state="yr"/>
+    <phase duration="2" state="rr"/>
+    <phase duration="41" state="rG"/>
+    <phase duration="7" state="rr"/>
+    <phase duration="1" state="yr"/>
+    <phase duration="22" state="Gr"/>
+
+
+    Next:
+    A034_Large_Morgens
+    <tlLogic id="cluster761976295_clusterJ1_cluster_10574544873_10574544874_11752294598_11752294599_#8more" type="static" programID="0" offset="0">
+        <phase duration="10" state="rrrGrrGrGGrG"/>
+        <phase duration="5"  state="rrrGrrGrrrrr"/>
+        <phase duration="3"  state="rrryrryrrrrr"/>
+        <phase duration="13" state="GrrrrrrrrGGG"/>
+        <phase duration="5"  state="Grrrrrrrrrrr"/>
+        <phase duration="3"  state="yrrrrrrrrrrr"/>
+        <phase duration="13" state="rGgrrrrGGrrr"/>
+        <phase duration="5"  state="rGgrrrrGrrrr"/>
+        <phase duration="3"  state="rGgrrrryrrrr"/>
+        <phase duration="6"  state="rGGrrrrrrrrr"/>
+        <phase duration="3"  state="ryyrrrrrrrrr"/>
+        <phase duration="13" state="rrrrGgrrrGGG"/>
+        <phase duration="5"  state="rrrrGgrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrr"/>
+    </tlLogic>  
+
+    state = "FV5 FV8 FV8(links) S61 S62  FG35 FG38 ÜbgergangTramrechts FG38_1"
+
+    <phase duration="20" state="GrrGrrGGG"/>    #20
+    <phase duration="2" state="GrryrrGGG"/>     #22
+    <phase duration="1" state="GrryGrGGG"/>     #23
+    <phase duration="1" state="yrryGrGGG"/>     #24
+    <phase duration="1" state="yrrrGrGGG"/>     #25
+    <phase duration="1" state="yrrrGrrGG"/>     #26
+    <phase duration="1" state="rrrrGrrGr"/>     #27
+    <phase duration="1" state="rrrrGrrGr"/>     #28
+    <phase duration="1" state="rrrrGGrGr"/>     #29
+    <phase duration="1" state="rrrrrGrGr"/>     #30
+    <phase duration="1" state="ryyrrGrGr"/>     #31
+    <phase duration="25" state="rGGrrGrGr"/>    #56
+    <phase duration="3" state="ryyrrrrGr"/>     #59
+    <phase duration="2" state="rrrrrrrGr"/>     #61
+    <phase duration="2" state="rrrrrrGGr"/>     #63
+    <phase duration="1" state="rrrrrrGGG"/>     #64
+    <phase duration="2" state="rrrGrrGGG"/>     #66
+    <phase duration="1" state="yrrGrrGGG"/>     #67
+    <phase duration="23" state="GrrGrrGGG"/>    #90     
+
+    Next:
+    A034_small_Tag:
+
+    <tlLogic id="joinedS_540369245_cluster_10574544873_10574544874_11752294598_11752294599_#8more" type="static" programID="0" offset="0">
+        <phase duration="37" state="rG"/>
+        <phase duration="8"  state="rr"/>
+        <phase duration="42" state="Gr"/>
+        <phase duration="3"  state="yr"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="ring1" value="0,2,0,4"/>
+        <param key="ring2" value="0,6,0,8"/>
+    </tlLogic>
+    state = " FV4 FG34"
+    <phase duration="7" state="rr"/> <!--7-->
+    <phase duration="1" state="yr"/> <!--8-->
+    <phase duration="21" state="Gr"/> <!--29-->
+    <phase duration="3" state="yr"/> <!--32-->
+    <phase duration="2" state="rr"/> <!--34-->
+    <phase duration="36" state="rG"/> <!--70-->
+
+    Next:
+    A034_large_Tag:
+
+    <tlLogic id="cluster761976295_clusterJ1_cluster_10574544873_10574544874_11752294598_11752294599_#8more" type="static" programID="0" offset="0">
+        <phase duration="10" state="rrrGrrGrGGrG"/>
+        <phase duration="5"  state="rrrGrrGrrrrr"/>
+        <phase duration="3"  state="rrryrryrrrrr"/>
+        <phase duration="13" state="GrrrrrrrrGGG"/>
+        <phase duration="5"  state="Grrrrrrrrrrr"/>
+        <phase duration="3"  state="yrrrrrrrrrrr"/>
+        <phase duration="13" state="rGgrrrrGGrrr"/>
+        <phase duration="5"  state="rGgrrrrGrrrr"/>
+        <phase duration="3"  state="rGgrrrryrrrr"/>
+        <phase duration="6"  state="rGGrrrrrrrrr"/>
+        <phase duration="3"  state="ryyrrrrrrrrr"/>
+        <phase duration="13" state="rrrrGgrrrGGG"/>
+        <phase duration="5"  state="rrrrGgrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrr"/>
+    </tlLogic>  
+
+    state = "FV5 FV8 FV8(links) S61 S62  FG35 FG38 ÜbgergangTramrechts FG38_1"
+
+    <phase duration="1" state="rrrrrrrGr"/> <!--1-->
+    <phase duration="2" state="rrrrrrGGr"/> <!--3-->
+    <phase duration="1" state="rrrrrrGGG"/> <!--4-->
+    <phase duration="1" state="rrrGrrGGG"/> <!--5-->
+    <phase duration="1" state="yrrGrrGGG"/> <!--6-->
+    <phase duration="29" state="GrrGrrGGG"/> <!--35-->
+    <phase duration="2" state="GrryrrGGG"/> <!--37-->
+    <phase duration="1" state="GrryGrGGG"/> <!--38-->
+    <phase duration="1" state="yrryGrGGG"/> <!--39-->
+    <phase duration="1" state="yrrrGrGGG"/> <!--40-->
+    <phase duration="1" state="yrrrGrrGG"/> <!--41-->
+    <phase duration="2" state="rrrrGrrGr"/> <!--43-->
+    <phase duration="1" state="rrrrGGrGr"/> <!--44-->
+    <phase duration="1" state="rrrrrGrGr"/> <!--45-->
+    <phase duration="1" state="ryyrrGrGr"/> <!--46-->
+    <phase duration="20" state="rGGrrGrGr"/> <!--66-->
+    <phase duration="3" state="ryyrrrrGr"/> <!--69-->
+    <phase duration="1" state="rrrrrrrGr"/> <!--70-->
+
+    Next:
+    A034_small_Abend:
+
+    <tlLogic id="joinedS_540369245_cluster_10574544873_10574544874_11752294598_11752294599_#8more" type="static" programID="0" offset="0">
+        <phase duration="37" state="rG"/>
+        <phase duration="8"  state="rr"/>
+        <phase duration="42" state="Gr"/>
+        <phase duration="3"  state="yr"/>
+        <param key="barrier2Phases" value="2,6"/>
+        <param key="barrierPhases" value="4,8"/>
+        <param key="ring1" value="0,2,0,4"/>
+        <param key="ring2" value="0,6,0,8"/>
+    </tlLogic>
+
+    state = " FV4 FG34"
+
+        <phase duration="13" state="Gr"/> <!--13-->
+        <phase duration="3" state="yr"/> <!--16-->
+        <phase duration="2" state="rr"/> <!--18-->
+        <phase duration="45" state="rG"/> <!--63-->
+        <phase duration="7" state="rr"/> <!--70-->
+        <phase duration="1" state="yr"/> <!--71-->
+        <phase duration="19" state="Gr"/> <!--90-->
+
+        Next:
+        A034_large_Abend:
+         <tlLogic id="cluster761976295_clusterJ1_cluster_10574544873_10574544874_11752294598_11752294599_#8more" type="static" programID="0" offset="0">
+        <phase duration="10" state="rrrGrrGrGGrG"/>
+        <phase duration="5"  state="rrrGrrGrrrrr"/>
+        <phase duration="3"  state="rrryrryrrrrr"/>
+        <phase duration="13" state="GrrrrrrrrGGG"/>
+        <phase duration="5"  state="Grrrrrrrrrrr"/>
+        <phase duration="3"  state="yrrrrrrrrrrr"/>
+        <phase duration="13" state="rGgrrrrGGrrr"/>
+        <phase duration="5"  state="rGgrrrrGrrrr"/>
+        <phase duration="3"  state="rGgrrrryrrrr"/>
+        <phase duration="6"  state="rGGrrrrrrrrr"/>
+        <phase duration="3"  state="ryyrrrrrrrrr"/>
+        <phase duration="13" state="rrrrGgrrrGGG"/>
+        <phase duration="5"  state="rrrrGgrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrr"/>
+    </tlLogic>  
+
+    state = "FV5 FV8 FV8(links) S61 S62  FG35 FG38 ÜbgergangTramrechts FG38_1"
+            <phase duration="19" state="GrrGrrGGG"/> <!--19-->
+            <phase duration="2" state="GrryrrGGG"/> <!--21-->
+            <phase duration="1" state="GrryGrGGG"/> <!--22-->
+            <phase duration="1" state="yrryGrGGG"/> <!--23-->
+            <phase duration="1" state="yrrrGrGGG"/> <!--24-->
+            <phase duration="1" state="yrrrGrrGG"/> <!--25-->
+            <phase duration="2" state="rrrrGrrGr"/> <!--27-->
+            <phase duration="1" state="rrrrGGrGr"/> <!--28-->
+            <phase duration="1" state="rrrrrGrGr"/> <!--29-->
+            <phase duration="1" state="ryyrrGrGr"/> <!--30-->
+            <phase duration="29" state="rGGrrGrGr"/> <!--59-->
+            <phase duration="3" state="ryyrrrrGr"/> <!--62-->
+            <phase duration="2" state="rrrrrrrGr"/> <!--64-->
+            <phase duration="2" state="rrrrrrGGr"/> <!--66-->
+            <phase duration="1" state="rrrrrrGGG"/> <!--67-->
+            <phase duration="1" state="rrrGrrGGG"/> <!--68-->
+            <phase duration="1" state="yrrGrrGGG"/> <!--69-->
+            <phase duration="21" state="GrrGrrGGG"/> <!--90-->
+
+
+
+
+
+
+
+
+

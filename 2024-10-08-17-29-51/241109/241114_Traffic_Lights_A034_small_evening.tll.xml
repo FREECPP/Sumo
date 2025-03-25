@@ -1,0 +1,11 @@
+<additionals>
+        <tlLogic id="joinedS_540369245_cluster_10574544873_10574544874_11752294598_11752294599_#8more" type="static" programID="0" offset="0">
+                <phase duration="13" state="Gr"/> <!--13-->
+                <phase duration="3" state="yr"/> <!--16-->
+                <phase duration="2" state="rr"/> <!--18-->
+                <phase duration="45" state="rG"/> <!--63-->
+                <phase duration="7" state="rr"/> <!--70-->
+                <phase duration="1" state="yr"/> <!--71-->
+                <phase duration="19" state="Gr"/> <!--90-->
+    </tlLogic>
+<additionals/>

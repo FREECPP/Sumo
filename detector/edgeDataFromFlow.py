@@ -38,10 +38,10 @@ from sumolib.options import ArgumentParser  # noqa
 DEBUG = False
 
 
-def get_options(args=None):
+def get_options(args=None): # Beschreibt die Optionen die man mitgeben kann (im Konsolenbefehl) wenn man dieses Script aufruft
     parser = ArgumentParser(description="Convert detector flow file to edgeData format")
     parser.add_argument("-d", "--detector-file", dest="detfile", category="input", type=ArgumentParser.additional_file,
-                        help="read detectors from FILE", metavar="FILE")
+                        help="read detectors from FILE", metavar="FILE") # Beispiel wenn im Konsolenbefehl -d steht, beschreibt das ein detector-file, welches unter options.detfile gespeichert wird der typ muss additional_file sein
     parser.add_argument("-f", "--detector-flow-file", dest="flowfile", category="input", type=ArgumentParser.file,
                         help="read detector flows to compare to from FILE (mandatory)", metavar="FILE")
     parser.add_argument("-o", "--output-file", dest="output", category="output", type=ArgumentParser.edgedata_file,
@@ -58,8 +58,8 @@ def get_options(args=None):
                         default=False, help="generate output in cadyts format")
     parser.add_argument("-v", "--verbose", action="store_true", dest="verbose",
                         default=False, help="tell me what you are doing")
-    options = parser.parse_args(args=args)
-    if not options.flowfile or not options.output:
+    options = parser.parse_args(args=args) # Hier werden die übergebenen args tatsächlich verarbeitet, also unter options. ... gespeichert
+    if not options.flowfile or not options.output: # Das ist eine Fehlerbehandlung: Wenn keine Datei als flowfile oder output angegeben wird, soll ein Fehler geschrieben werden
         parser.print_help()
         sys.exit()
 
@@ -67,16 +67,16 @@ def get_options(args=None):
 
 
 class LaneMap:
-    def get(self, key, default):
+    def get(self, key, default): #entfernt immer die letzten zwei zeichen von key -> wenn key: lane123 dann gibt die Funktion lane1 zurück
         return key[0:-2]
 
 
 def main(options):
     readers = {}
-    flowcols = options.flowcols.split(',')
-    tMin = None
-    tMax = None
-    for flowcol in flowcols:
+    flowcols = options.flowcols.split(',') # Hier wird ausgelesen, welche Spalten überhaupt relevante Werte enthalten (flows)
+    tMin = None # Variable für die minimale Zeit in den Daten
+    tMax = None # Variable für die maximale Zeit in den Daten
+    for flowcol in flowcols: # Hier iterieren wir nun über jede Spalte mit flows in meinem Fall aktuell nur qPKW
         detReader = detector.DetectorReader(options.detfile, LaneMap())
         tMin, tMax = detReader.findTimes(options.flowfile, tMin, tMax)
         hasData = detReader.readFlows(options.flowfile, flow=flowcol, time="Time", timeVal=0, timeMax=1440)
@@ -132,4 +132,5 @@ def main(options):
 
 
 if __name__ == "__main__":
+    print("I entered edgeDataFromFlow.py")
     main(get_options())
