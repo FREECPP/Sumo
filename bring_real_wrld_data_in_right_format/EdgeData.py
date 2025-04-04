@@ -24,8 +24,8 @@ def edgedatafromflow(detector_file, flow_traffic_file, edge_data_file):
 
 
 if __name__ == "__main__":
-    edgedatafromflow(detector_file="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/bring_real_wrld_data_in_right_format/241106_induction_loops.add.xml",
-                     flow_traffic_file="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/tools/bring_real_wrld_data_in_right_format/SemikolonSepperated_output3.txt",
+    edgedatafromflow(detector_file="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/bring_real_wrld_data_in_right_format/241106_induction_loops.add.xml",
+                     flow_traffic_file="/opt/homebrew/Cellar/sumo/1.20.0/share/sumo/bring_real_wrld_data_in_right_format/SemikolonSepperated_output3.txt",
                      edge_data_file="edgedatafromflow.xml")
 
         
