@@ -6,15 +6,15 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241109/241109.net.xml"/>
+        <net-file value="/opt/homebrew/opt/sumo/share/sumo/2024-10-08-17-29-51/241109/241109.net.xml"/>
         <route-files value="
-            /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241104/bus.rou.xml,
-            /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241104/241104_random_route_pedestrian.rou.xml,
-            /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241128/241031_random_route_bicycles.rou.xml,
-            /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241128/241031_random_route_cars.rou.xml"/>
+            /opt/homebrew/opt/sumo/share/sumo/2024-10-08-17-29-51/241104/bus.rou.xml,
+            /opt/homebrew/opt/sumo/share/sumo/2024-10-08-17-29-51/241104/241104_random_route_pedestrian.rou.xml,
+            /opt/homebrew/opt/sumo/share/sumo/2024-10-08-17-29-51/241128/241031_random_route_bicycles.rou.xml,
+            /opt/homebrew/opt/sumo/share/sumo/2024-10-08-17-29-51/241128/241031_random_route_cars.rou.xml"/>
         <additional-files value="osm.poly.xml.gz,
-            /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241106/241106_induction_loops.add.xml,
-            /opt/homebrew/opt/sumo/share/sumo/tools/2024-10-08-17-29-51/241031/bus_stops.add.xml
+            /opt/homebrew/opt/sumo/share/sumo/2024-10-08-17-29-51/241106/241106_induction_loops.add.xml,
+            /opt/homebrew/opt/sumo/share/sumo/2024-10-08-17-29-51/241031/bus_stops.add.xml
             "/>
     </input>
 
