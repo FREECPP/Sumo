@@ -14,7 +14,7 @@ def edgedatafromflow(detector_file, flow_traffic_file, edge_data_file):
     
     subprocess.call( # ermöglicht ein externes Script auszuführen in der Klammer wird also ein Pfad eines Programms verlangt (Etwas was man im Terminal ausführen würde)
         f'{str(sys.executable)}' #sys.executable gibt den Pfad des Pyhton interpreters an
-        f' "{os.path.join(os.environ.get("SUMO_HOME"), "tools", "detector", "edgeDataFromFlow.py")}" '
+        f' "{os.path.join(os.environ.get("SUMO_HOME"), "detector", "edgeDataFromFlow.py")}" '
         f' -d {detector_file} -f {flow_traffic_file} -q qPKW -i 10 -o {edge_data_file} --v', 
         shell= True
     )   
