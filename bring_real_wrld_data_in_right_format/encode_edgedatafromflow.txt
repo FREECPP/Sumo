@@ -1,5 +1,41 @@
 
-
+This example was created after modifying "edgeDataFromFlow.py":
+    <interval id="flowdata" begin="0" end="600">
+        <edge id="-1265069358#1_0" qPKW="0" groups="1"/>    A034_DK51
+        <edge id="-182982119#1_2" qPKW="0" groups="1"/>     A035_D31
+        <edge id="-53207957_0" qPKW="4.0" groups="1"/>      A131_D2
+        <edge id="-56163443#3_0" qPKW="0" groups="1"/>      A035_D41
+        <edge id="150041551#2_2" qPKW="0" groups="1"/>      A035_D11
+        <edge id="150041565_1" qPKW="2.0" groups="1"/>      A141_D11_2
+        <edge id="150041565_2" qPKW="2.0" groups="1"/>      A141_D11_1
+        <edge id="150041580_0" qPKW="5.0" groups="1"/>      A131_D1
+        <edge id="150041594#0_1" qPKW="0" groups="1"/>      A035_D21
+        <edge id="214812786_0" qPKW="1.0" groups="1"/>      A036_D31
+        <edge id="214812786_1" qPKW="1.0" groups="1"/>      A036_D32
+        <edge id="214812786_2" qPKW="1.0" groups="1"/>      A036_D33
+        <edge id="214812786_3" qPKW="2.0" groups="1"/>      A036_D34
+        <edge id="359458217#0_1" qPKW="1.0" groups="1"/>    A131_D12
+        <edge id="378479743#6_2" qPKW="5.0" groups="1"/>    A034_D43
+        <edge id="378479743#6_3" qPKW="6.0" groups="1"/>    A034_D44
+        <edge id="395456769#1_2" qPKW="8.0" groups="1"/>    A034_D83
+        <edge id="395456769#1_3" qPKW="1.0" groups="1"/>    A034_D84
+        <edge id="43135644#0_0" qPKW="0" groups="1"/>       A036_D11
+        <edge id="43135644#0_1" qPKW="0" groups="1"/>       A036_D12
+        <edge id="43135644#0_2" qPKW="0" groups="1"/>       A036_D13
+        <edge id="43135644#0_3" qPKW="0" groups="1"/>       A036_D14
+        <edge id="492925919_0" qPKW="0" groups="1"/>        A034_D81
+        <edge id="492925919_1" qPKW="0" groups="1"/>        A034_D82
+        <edge id="700236092#1_2" qPKW="0" groups="1"/>      A034_D41
+        <edge id="700236092#1_3" qPKW="0" groups="1"/>      A034_D42
+        <edge id="700440134_0" qPKW="1.0" groups="1"/>      A036_D21
+        <edge id="700440134_1" qPKW="4.0" groups="1"/>      A036_D22
+        <edge id="700440134_2" qPKW="3.0" groups="1"/>      A036_D23
+        <edge id="700440134_3" qPKW="0" groups="1"/>        A036_D24
+        <edge id="E2_0" qPKW="0" groups="1"/>               A036_D41
+        <edge id="E2_2" qPKW="0" groups="1"/>               A036_D42
+        <edge id="E2_3" qPKW="0" groups="1"/>               A036_D43
+        <edge id="E3_0" qPKW="0" groups="1"/>               A036_D40
+    </interval>
 
  This example took only the data from A034 as an Input:
     <interval id="flowdata" begin="0" end="600">
